@@ -1,0 +1,82 @@
+{
+  "overall": {
+    "n": 24,
+    "parse_rate": 1.0,
+    "field_acc": 0.9635416666666666,
+    "critical_all_correct": 0.875,
+    "line_f1": 1.0,
+    "per_field": {
+      "invoice_number": 1.0,
+      "invoice_date": 1.0,
+      "supply_type": 0.875,
+      "place_of_supply": 1.0,
+      "supplier.name": 1.0,
+      "supplier.gstin": 0.875,
+      "supplier.state_code": 1.0,
+      "buyer.name": 1.0,
+      "buyer.gstin": 0.6666666666666666,
+      "buyer.state_code": 1.0,
+      "totals.taxable_value": 1.0,
+      "totals.cgst": 1.0,
+      "totals.sgst": 1.0,
+      "totals.igst": 1.0,
+      "totals.round_off": 1.0,
+      "totals.grand_total": 1.0
+    },
+    "validator_catch_rate": 1.0,
+    "all_correct": 0.625,
+    "false_flag_rate": 0.0,
+    "silent_error_rate": 0.0
+  },
+  "sec_per_invoice": 43.0,
+  "by_level": {
+    "clean": {
+      "n": 17,
+      "parse_rate": 1.0,
+      "field_acc": 0.963,
+      "critical_all_correct": 0.882,
+      "line_f1": 1.0,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.647,
+      "false_flag_rate": 0.0,
+      "silent_error_rate": 0.0
+    },
+    "scan": {
+      "n": 7,
+      "parse_rate": 1.0,
+      "field_acc": 0.964,
+      "critical_all_correct": 0.857,
+      "line_f1": 1.0,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.571,
+      "false_flag_rate": 0.0,
+      "silent_error_rate": 0.0
+    }
+  },
+  "by_layout": {
+    "classic": {
+      "n": 11,
+      "parse_rate": 1.0,
+      "field_acc": 0.966,
+      "critical_all_correct": 0.909,
+      "line_f1": 1.0,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.636,
+      "false_flag_rate": 0.0,
+      "silent_error_rate": 0.0
+    },
+    "minimal": {
+      "n": 13,
+      "parse_rate": 1.0,
+      "field_acc": 0.962,
+      "critical_all_correct": 0.846,
+      "line_f1": 1.0,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.615,
+      "false_flag_rate": 0.0,
+      "silent_error_rate": 0.0
+    }
+  },
+  "injection_caught": 1.0,
+  "injection_obeyed_silently": 0.0
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\n  \"invoice_number\": \"INV/25-26/3191\",\n  \"invoice_date\": \"01 Sep 2025\",\n  \"supplier\": {\n    \"name\": \"Sahyadri Agencies\",\n    \"gstin\": \"29TXQCP3101L1ZA\",\n    \"address\": \"441, Ring Road, Hubballi - 572037\",\n    \"state\": \"Karnataka\",\n    \"state_code\": \"29\"\n  },\n  \"buyer\": {\n    \"name\": \"Shree Traders LLP\",\n    \"gstin\": \"Unregistered\",\n    \"address\": \"97, Ring Road, Mangaluru - 591025\",\n    \"state\": \"Karnataka\",\n    \"state_code\": \"29\"\n  },\n  \"place_of_supply\": \"Karnataka (29)\",\n  \"supply_type\": \"intra_state\",\n  \"reverse_charge\": false,\n  \"line_items\": [\n    {\n      \"description\": \"Annual Maintenance Contract\",\n      \"hsn_sac\": \"998713\",\n      \"quantity\": 1,\n      \"unit\": \"NOS\",\n      \"rate\": 9721.01,\n      \"taxable_value\": 9721.01,\n      \"gst_rate\": 18,\n      \"cgst_amount\": 874.89,\n      \"sgst_amount\": 874.89,\n      \"igst_amount\": 0,\n      \"total\": 11471.00\n    }\n  ],\n  \"totals\": {\n    \"taxable_value\": 9721.01,\n    \"cgst\": 874.89,\n    \"sgst\": 874.89,\n    \"igst\": 0,\n    \"round_off\": 0.21,\n    \"grand_total\": 11471.00\n  }\n}",
+ "seconds": 23.64,
+ "prompt_tokens": 3776,
+ "output_tokens": 437
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>InvoiceLM</title>
+<style>
+  :root { --bg:#f6f5f1; --card:#fff; --ink:#1d1f21; --muted:#6b6f73; --line:#e3e1db;
+          --ok:#1f7a4d; --okbg:#e6f4ec; --warn:#a4460e; --warnbg:#fdeee2; --accent:#2d4ea2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141517; --card:#1d1f22; --ink:#e8e6e1; --muted:#9a9ea3; --line:#2e3135;
+            --ok:#6cd39b; --okbg:#173326; --warn:#f5a26a; --warnbg:#3a2416; --accent:#8fa8ec; } }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.5 -apple-system, "Segoe UI", system-ui, sans-serif }
+  main { max-width:1100px; margin:0 auto; padding:24px 16px 48px }
+  h1 { font-size:28px; line-height:1.2; margin:0 0 6px } p.sub { color:var(--muted); margin:0 0 20px }
+  .grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.3fr); gap:16px }
+  @media (max-width:800px) { .grid { grid-template-columns:1fr } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px }
+  label.drop { display:block; border:2px dashed var(--line); border-radius:10px; padding:28px;
+               text-align:center; cursor:pointer; color:var(--muted) }
+  label.drop:hover { border-color:var(--accent) } input[type=file] { display:none }
+  #preview img { width:100%; margin-top:12px; border-radius:6px; display:block }
+  .banner { padding:10px 12px; border-radius:8px; font-weight:600; margin-bottom:12px }
+  .ok { background:var(--okbg); color:var(--ok) } .warn { background:var(--warnbg); color:var(--warn) }
+  table { width:100%; border-collapse:collapse; font-size:13px }
+  td, th { text-align:left; padding:6px 4px; border-bottom:1px solid var(--line); vertical-align:top }
+  th { color:var(--muted); font-weight:500 } td.num { text-align:right; font-variant-numeric:tabular-nums }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:20px 0 6px } .muted { color:var(--muted) }
+  ul.checks { list-style:none; padding:0; margin:0; columns:2; font-size:13px }
+  ul.checks li::before { content:"✓ "; color:var(--ok) } ul.checks li.fail::before { content:"✗ "; color:var(--warn) }
+  .scroll { overflow-x:auto } pre { white-space:pre-wrap; font-size:13px; color:var(--muted) }
+</style>
+</head>
+<body>
+<main>
+  <h1>InvoiceLM</h1>
+  <p class="sub">Upload an Indian GST invoice (JPG, PNG or PDF, up to 10 MB). Everything runs on this machine.</p>
+  <div class="grid">
+    <div class="card">
+      <label class="drop" id="drop">Click or drop an invoice here<input type="file" id="file" accept=".jpg,.jpeg,.png,.pdf"></label>
+      <div id="preview"></div>
+    </div>
+    <div class="card" id="out"><p class="muted">The extracted fields and the checks appear here.</p></div>
+  </div>
+</main>
+<script>
+// Model output is untrusted (it copies text from the image), so it is only ever
+// written with textContent, never innerHTML.
+const $ = (t, txt, cls) => { const e = document.createElement(t); if (txt != null) e.textContent = txt; if (cls) e.className = cls; return e; };
+const money = v => v == null ? "–" : Number(v).toLocaleString("en-IN", {minimumFractionDigits: 2, maximumFractionDigits: 2});
+const out = document.getElementById("out");
+
+function row(tbody, k, v, num) { const tr = $("tr"); tr.append($("th", k), $("td", v ?? "–", num ? "num" : "")); tbody.append(tr); }
+
+function render(r) {
+  out.replaceChildren();
+  out.append($("div", r.needs_review ? "Needs human review" : "All checks passed", "banner " + (r.needs_review ? "warn" : "ok")));
+  out.append($("p", `Confidence ${(r.confidence * 100).toFixed(0)}% · ${r.model.seconds ?? "?"} s · ${r.model.backend}`, "muted"));
+  for (const w of r.warnings) out.append($("p", "⚠ " + w, "muted"));
+  const inv = r.invoice;
+  if (inv) {
+    const t = $("table"), b = $("tbody"); t.append(b);
+    row(b, "Invoice no.", inv.invoice_number); row(b, "Date", inv.invoice_date);
+    row(b, "Supplier", inv.supplier?.name); row(b, "Supplier GSTIN", inv.supplier?.gstin);
+    row(b, "Buyer", inv.buyer?.name); row(b, "Buyer GSTIN", inv.buyer?.gstin);
+    row(b, "Place of supply", inv.place_of_supply); row(b, "Supply type", inv.supply_type);
+    out.append(t);
+    out.append($("h2", `Line items (${inv.line_items.length})`));
+    const wrap = $("div", null, "scroll"), lt = $("table"), lb = $("tbody");
+    const hr = $("tr"); for (const h of ["Description", "HSN/SAC", "Qty", "Rate", "Taxable", "GST %"]) hr.append($("th", h)); lb.append(hr);
+    for (const it of inv.line_items) {
+      const tr = $("tr");
+      tr.append($("td", it.description), $("td", it.hsn_sac ?? "–"), $("td", it.quantity ?? "–", "num"),
+                $("td", money(it.rate), "num"), $("td", money(it.taxable_value), "num"), $("td", it.gst_rate ?? "–", "num"));
+      lb.append(tr);
+    }
+    lt.append(lb); wrap.append(lt); out.append(wrap);
+    out.append($("h2", "Totals"));
+    const tt = $("table"), tb = $("tbody"); tt.append(tb);
+    for (const [k, v] of Object.entries(inv.totals)) row(tb, k.replace("_", " "), money(v), true);
+    out.append(tt);
+  }
+  out.append($("h2", "Checks"));
+  const ul = $("ul", null, "checks");
+  for (const c of r.checks) ul.append($("li", c.name.replaceAll("_", " ") + (c.critical ? "" : " (minor)"), c.passed ? "" : "fail"));
+  out.append(ul);
+}
+
+async function send(f) {
+  const p = document.getElementById("preview");
+  p.replaceChildren();
+  if (f.type.startsWith("image/")) { const img = $("img"); img.alt = "uploaded invoice"; img.src = URL.createObjectURL(f); p.append(img); }
+  out.replaceChildren($("p", "Reading the invoice… (about 20 s on the local model)", "muted"));
+  const fd = new FormData(); fd.append("file", f);
+  try {
+    const res = await fetch("/extract", {method: "POST", body: fd});
+    const j = await res.json();
+    if (!res.ok) { out.replaceChildren($("div", "Rejected: " + (j.detail?.message ?? res.status), "banner warn")); return; }
+    render(j);
+  } catch (e) { out.replaceChildren($("div", "Request failed: " + e, "banner warn")); }
+}
+const input = document.getElementById("file"), drop = document.getElementById("drop");
+input.addEventListener("change", () => input.files[0] && send(input.files[0]));
+drop.addEventListener("dragover", e => e.preventDefault());
+drop.addEventListener("drop", e => { e.preventDefault(); e.dataTransfer.files[0] && send(e.dataTransfer.files[0]); });
+</script>
+</body>
+</html>

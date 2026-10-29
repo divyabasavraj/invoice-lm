@@ -1,0 +1,6 @@
+{
+ "text": "{\n  \"invoice_number\": \"202526/01649\",\n  \"invoice_date\": \"30-06-2025\",\n  \"supplier\": {\n    \"name\": \"Sri Suppliers\",\n    \"gstin\": \"27OZYFG9429U2Z0\",\n    \"address\": \"294, Industrial Area Phase 2, Nashik - 445082\",\n    \"state\": \"Maharashtra\",\n    \"state_code\": \"27\"\n  },\n  \"buyer\": {\n    \"name\": \"Sai Solutions\",\n    \"gstin\": \"24RZUFQ9058V2ZU\",\n    \"address\": \"78, Main Bazaar, Vadodara - 360080\",\n    \"state\": \"Gujarat\",\n    \"state_code\": \"24\"\n  },\n  \"place_of_supply\": \"Gujarat (24)\",\n  \"supply_type\": \"inter_state\",\n  \"reverse_charge\": false,\n  \"line_items\": [\n    {\n      \"description\": \"Office Table\",\n      \"hsn_sac\": \"9403\",\n      \"quantity\": 5,\n      \"unit\": \"PCS\",\n      \"rate\": 7772.00,\n      \"taxable_value\": 38860.00,\n      \"gst_rate\": 18,\n      \"cgst_amount\": 0.00,\n      \"sgst_amount\": 0.00,\n      \"igst_amount\": 6994.80,\n      \"total\": 6994.80\n    }\n  ],\n  \"totals\": {\n    \"taxable_value\": 38860.00,\n    \"cgst\": 0.00,\n    \"sgst\": 0.00,\n    \"igst\": 6994.80,\n    \"round_off\": 0.20,\n    \"grand_total\": 45855.00\n  }\n}",
+ "seconds": 23.53,
+ "prompt_tokens": 3776,
+ "output_tokens": 450
+}

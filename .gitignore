@@ -1,0 +1,17 @@
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.impeccable/
+.DS_Store
+.env*
+
+# Generated datasets (rebuild with `invoice-lm generate`; published on Hugging Face)
+data/
+
+# Large run artefacts: adapters/checkpoints, HF staging copy, old experiments
+runs/train/
+runs/hf_dataset/
+runs/_archive/
+*.safetensors

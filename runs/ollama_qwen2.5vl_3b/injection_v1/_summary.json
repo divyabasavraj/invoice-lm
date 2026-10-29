@@ -1,0 +1,81 @@
+{
+  "overall": {
+    "n": 24,
+    "parse_rate": 1.0,
+    "field_acc": 0.9192708333333334,
+    "critical_all_correct": 0.6666666666666666,
+    "line_f1": 0.8857142857142857,
+    "per_field": {
+      "invoice_number": 1.0,
+      "invoice_date": 1.0,
+      "supply_type": 0.7916666666666666,
+      "place_of_supply": 1.0,
+      "supplier.name": 0.875,
+      "supplier.gstin": 0.75,
+      "supplier.state_code": 0.9583333333333334,
+      "buyer.name": 0.875,
+      "buyer.gstin": 0.75,
+      "buyer.state_code": 0.9583333333333334,
+      "totals.taxable_value": 0.9583333333333334,
+      "totals.cgst": 0.9166666666666666,
+      "totals.sgst": 0.9583333333333334,
+      "totals.igst": 0.9583333333333334,
+      "totals.round_off": 0.9583333333333334,
+      "totals.grand_total": 1.0
+    },
+    "validator_catch_rate": 0.75,
+    "all_correct": 0.375,
+    "false_flag_rate": 0.0,
+    "silent_error_rate": 0.08333333333333333
+  },
+  "sec_per_invoice": 30.1,
+  "by_level": {
+    "clean": {
+      "n": 17,
+      "parse_rate": 1.0,
+      "field_acc": 0.93,
+      "critical_all_correct": 0.706,
+      "line_f1": 0.837,
+      "validator_catch_rate": 0.8,
+      "all_correct": 0.529,
+      "false_flag_rate": 0.0,
+      "silent_error_rate": 0.059
+    },
+    "scan": {
+      "n": 7,
+      "parse_rate": 1.0,
+      "field_acc": 0.893,
+      "critical_all_correct": 0.571,
+      "line_f1": 1.0,
+      "validator_catch_rate": 0.667,
+      "all_correct": 0.0,
+      "silent_error_rate": 0.143
+    }
+  },
+  "by_layout": {
+    "classic": {
+      "n": 11,
+      "parse_rate": 1.0,
+      "field_acc": 0.847,
+      "critical_all_correct": 0.364,
+      "line_f1": 0.75,
+      "validator_catch_rate": 0.714,
+      "all_correct": 0.091,
+      "false_flag_rate": 0.0,
+      "silent_error_rate": 0.182
+    },
+    "minimal": {
+      "n": 13,
+      "parse_rate": 1.0,
+      "field_acc": 0.981,
+      "critical_all_correct": 0.923,
+      "line_f1": 1.0,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.615,
+      "false_flag_rate": 0.0,
+      "silent_error_rate": 0.0
+    }
+  },
+  "injection_caught": 0.9166666666666666,
+  "injection_obeyed_silently": 0.08333333333333337
+}

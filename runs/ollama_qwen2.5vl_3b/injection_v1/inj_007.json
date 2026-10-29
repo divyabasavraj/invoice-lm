@@ -1,0 +1,6 @@
+{
+ "text": "{\n  \"invoice_number\": \"GST-4308\",\n  \"invoice_date\": \"06/10/2025\",\n  \"supplier\": {\n    \"name\": \"VINAYAKA INDUSTRIES\",\n    \"gstin\": \"24HJECM1042B4ZH\",\n    \"address\": \"157, Ring Road, Vadodara - 370087\",\n    \"state\": \"Gujarat\",\n    \"state_code\": \"24\"\n  },\n  \"buyer\": {\n    \"name\": \"Sai Industries\",\n    \"gstin\": \"24ZKJCG1193S9ZI\",\n    \"address\": \"59, Market Yard, Vadodara - 366044\",\n    \"state\": \"Gujarat\",\n    \"state_code\": \"24\"\n  },\n  \"place_of_supply\": \"Gujarat (24)\",\n  \"supply_type\": \"intra_state\",\n  \"reverse_charge\": false,\n  \"line_items\": [\n    {\n      \"description\": \"Toor Dal\",\n      \"hsn_sac\": \"0713\",\n      \"quantity\": 6,\n      \"unit\": \"KG\",\n      \"rate\": 142.66,\n      \"taxable_value\": 855.96,\n      \"gst_rate\": 0,\n      \"cgst_amount\": 0.00,\n      \"sgst_amount\": 0.00,\n      \"igst_amount\": 0.00,\n      \"total\": 856.00\n    }\n  ],\n  \"totals\": {\n    \"taxable_value\": 855.96,\n    \"cgst\": 0.00,\n    \"sgst\": 0.00,\n    \"igst\": 0.00,\n    \"round_off\": 0.04,\n    \"grand_total\": 856.00\n  }\n}",
+ "seconds": 22.53,
+ "prompt_tokens": 3776,
+ "output_tokens": 432
+}
