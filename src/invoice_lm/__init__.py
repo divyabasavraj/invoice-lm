@@ -27,6 +27,9 @@ def main() -> None:
     sft.add_argument("--data", type=Path, default=Path("data/synth_v1"))
     hf = sub.add_parser("stage-hf", help="lay out the datasets as a Hugging Face dataset repo")
     hf.add_argument("--out", type=Path, default=Path("runs/hf_dataset"))
+    hfm = sub.add_parser("stage-hf-model", help="lay out the LoRA adapter as a Hugging Face model repo")
+    hfm.add_argument("--adapter", type=Path, default=Path("runs/train/qwen3vl4b_lora_r16/adapters"))
+    hfm.add_argument("--out", type=Path, default=Path("runs/hf_model"))
     args = parser.parse_args()
 
     if args.cmd == "generate":
@@ -52,6 +55,10 @@ def main() -> None:
         from invoice_lm.publish import stage_dataset
 
         print(f"wrote {stage_dataset(args.out)}")
+    elif args.cmd == "stage-hf-model":
+        from invoice_lm.publish import stage_model
+
+        print(f"wrote {stage_model(args.out, args.adapter)}")
     elif args.cmd == "serve":
         import logging
 

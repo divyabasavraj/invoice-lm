@@ -299,6 +299,10 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 
    The fine-tune's 2 regional cases (`reg_007`, `reg_023`) are both Kannada supplier names: the model can't read the Kannada name, so it copies the buyer block into the supplier block. Both flagged (supply-type/GSTIN checks). So swaps are solved on English layouts; Kannada supplier names are the weak spot. `[DECISION]` Day 3's "supplier/buyer swap" fine-tuning target: met; no swap validator needed.
 
+13. 10:36  `[RESULT]` Validation curve from `train.log` (every 100 steps): 0.0148 (100) → **0.0047 (600, lowest)** → 0.0055–0.0082 → 0.0060 (1,613). Flat after step 600, which backs the no-second-epoch proposal.
+14. 10:38  `invoice-lm stage-hf-model`: `runs/hf_model` = final `adapters.safetensors` (132 MB, hard link) + `adapter_config.json` + model card (YAML `base_model`, results tables, usage, training settings, limits incl. the 2 silent misreads and Kannada supplier names). The 16 step checkpoints (~2.1 GB) are not staged. Test first (import error, then pass). `runs/hf_model/` gitignored. Files: `publish.py`, `__init__.py`, `tests/test_publish.py`, `.gitignore`.
+15. 10:40  `[RESULT]` Loaded the base model + `runs/hf_model` the way a Hub user would: `syn_0_00000` read correctly (invoice number, grand total), not flagged, 23.1 s. **597 tests pass.** Upload command waits for the user's HF account: `hf upload <user>/invoicelm-qwen3vl-4b-lora runs/hf_model`.
+
 ### End of day (provisional)
 - Done: LoRA r16 trained (6 h 09 min); fine-tuned 4B beats every baseline incl. 7B at 3× the speed; RESULTS.md written; silent errors explained.
 - Not done: HF upload (account + approval); model card; real-invoice test; git remote.

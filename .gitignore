@@ -13,5 +13,6 @@ data/
 # Large run artefacts: adapters/checkpoints, HF staging copy, old experiments
 runs/train/
 runs/hf_dataset/
+runs/hf_model/
 runs/_archive/
 *.safetensors
