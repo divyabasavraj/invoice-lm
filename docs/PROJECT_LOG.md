@@ -259,7 +259,7 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 
 ### End of day
 - Done: chain re-armed with a session-independent watcher and running on mains power since 23:28; dataset release staged in `runs/hf_dataset`; 593 tests.
-- Not done: the chain itself (running; LoRA ~3 h 05 min, then evals + 7B baseline + report); HF upload (needs account + approval); model card (needs the fine-tune numbers); Gemini baseline (no key); native-speaker check; pass 2; git remote (repo exists locally, nothing pushed).
+- Not done: the chain itself (running; LoRA ~3 h 05 min, then evals + 7B baseline + report); HF upload (needs account + approval); model card (needs the fine-tune numbers); Gemini baseline (no key); native-speaker check; pass 2; GitHub done (public).
 - `[NEXT]` Plug in → chain starts by itself. When `runs/logs/overnight.log` says `all done`: read `docs/RESULTS.md`, fine-tuned vs untrained 4B, count supplier/buyer swaps, decide on a second epoch, then write the model card and stage the adapter.
 
 ## Day 5: 2026-10-30: Overnight chain results (milestones 4, 6)
@@ -306,6 +306,8 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 16. 10:45  README rewritten around the results: headline (73% vs 60% for 7B, 3× faster), same-60 table for all 5 models, what the fine-tune changed, limits (synthetic only, 2 silent misreads, Kannada supplier names, no Gemini yet), training summary, new commands (`stage-hf-model`, `count_swaps.py`, serve with `--extra train`). Files: `README.md`.
 
 17. 10:55  Blog draft `docs/BLOG_DRAFT.md` (~975 words): problem, synthetic dataset, code-only checks, baselines, laptop training (incl. the dead watcher and the 2× time miss), results table, what it still gets wrong, lessons. Humanizer pass: two effect headings renamed, an unsupported detail ("carbon-copy" bill books) removed, no dashes. `[FAILURE]` My first draft said the untrained model made the same two misreads; it didn't (on `syn_0_00311` it read the date right and missed the buyer GSTIN). Fixed in the draft before commit. Links to add after upload.
+
+18. 11:05  `[RESULT]` Pre-push check: 3.7 MB repo, no keys/tokens, no `.env`, no safetensors, no local paths. First `gh repo create --private` was blocked by the Claude Code permission check (external upload needs explicit approval); the user then asked for a public repo. Created **public** https://github.com/divyabasavraj/invoice-lm and pushed `main` (10 commits).
 
 ### End of day (provisional)
 - Done: LoRA r16 trained (6 h 09 min); fine-tuned 4B beats every baseline incl. 7B at 3× the speed; RESULTS.md written; silent errors explained.
