@@ -287,6 +287,18 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 10. 10:22  `[RESULT]` Live smoke test: uvicorn with `--extra api --extra train`, `POST /extract` on `syn_0_00008` (photo): 15.8 s total, 13.4 s model; invoice number and grand total match the label; misread supplier GSTIN caught (`supplier_gstin_valid` failed → needs_review). 
 11. 10:24  `[FAILURE]` `/health` and `/extract` echoed the full adapter path, including the macOS username. Fix: `backend_label()` reports `mlx:<model>+lora:<run name>`. Lesson: anything a response returns is public; check for local paths. **596 tests pass.**
 
+12. 10:31  `[RESULT]` Supplier/buyer swap count (`eval/count_swaps.py`: predicted supplier GSTIN or name equals the gold buyer's, or the reverse):
+
+   | Model | synth | injection | regional | Swapped and not flagged |
+   |---|---|---|---|---|
+   | Ollama qwen2.5vl:3b | 7 / 60 | 3 / 24 | n/a | 3 |
+   | MLX 4B untrained | 0 / 60 | 2 / 24 | 0 / 40 | 1 |
+   | **MLX 4B + LoRA** | **0 / 197** | **0 / 24** | 2 / 40 | **0** |
+   | Ollama qwen2.5vl:7b | 0 / 60 | 0 / 24 | n/a | 0 |
+   | Ollama qwen3-vl:4b-instruct | 0 / 60 | 0 / 24 | n/a | 0 |
+
+   The fine-tune's 2 regional cases (`reg_007`, `reg_023`) are both Kannada supplier names: the model can't read the Kannada name, so it copies the buyer block into the supplier block. Both flagged (supply-type/GSTIN checks). So swaps are solved on English layouts; Kannada supplier names are the weak spot. `[DECISION]` Day 3's "supplier/buyer swap" fine-tuning target: met; no swap validator needed.
+
 ### End of day (provisional)
 - Done: LoRA r16 trained (6 h 09 min); fine-tuned 4B beats every baseline incl. 7B at 3× the speed; RESULTS.md written; silent errors explained.
 - Not done: HF upload (account + approval); model card; real-invoice test; git remote.
