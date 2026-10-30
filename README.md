@@ -41,7 +41,7 @@ uv run pytest
 ```
 
 ## API
-`POST /extract` (multipart `file`) returns the invoice, `needs_review`, confidence, every check, warnings and timing. `GET /` is a one-page demo. The model backend is set with `INVOICE_LM_BACKEND` (default `ollama:qwen2.5vl:3b`). Logs carry check names and timings, never invoice contents. The demo page writes model output with `textContent` only, because text copied out of an image is untrusted.
+`POST /extract` (multipart `file`) returns the invoice, `needs_review`, confidence, every check, warnings and timing. `GET /` is a one-page demo. The model backend is set with `INVOICE_LM_BACKEND`; by default it is the LoRA fine-tune (`mlx:` Qwen3-VL-4B-Instruct-4bit + `runs/train/qwen3vl4b_lora_r16/adapters`, needs `--extra train`), or `ollama:qwen3-vl:4b-instruct` when the adapter isn't on disk. Responses name the backend without local paths. Logs carry check names and timings, never invoice contents. The demo page writes model output with `textContent` only, because text copied out of an image is untrusted.
 
 ## Budget
 ₹0: local models (Ollama, MLX), Gemini free tier only on synthetic data.

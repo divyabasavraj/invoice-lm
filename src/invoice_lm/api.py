@@ -24,7 +24,26 @@ from invoice_lm import intake
 from invoice_lm.baseline import predict_bytes
 from invoice_lm.validators import validate
 
-BACKEND = os.environ.get("INVOICE_LM_BACKEND", "ollama:qwen2.5vl:3b")
+BASE_MODEL = "mlx-community/Qwen3-VL-4B-Instruct-4bit"
+ADAPTER = Path(__file__).resolve().parents[2] / "runs/train/qwen3vl4b_lora_r16/adapters"
+# Best untrained model in pass 1; used when the adapter isn't on disk (e.g. a fresh clone).
+FALLBACK_BACKEND = "ollama:qwen3-vl:4b-instruct"
+
+
+def default_backend(adapter: Path = ADAPTER) -> str:
+    """The LoRA fine-tune if its weights are present, else the best untrained model."""
+    if (adapter / "adapters.safetensors").exists():
+        return f"mlx:{BASE_MODEL}+{adapter}"
+    return FALLBACK_BACKEND
+
+
+def backend_label(backend: str) -> str:
+    """Backend name for responses: the adapter's run name, never a local path."""
+    model, plus, adapter = backend.partition("+")
+    return f"{model}+lora:{Path(adapter).parent.name}" if plus else backend
+
+
+BACKEND = os.environ.get("INVOICE_LM_BACKEND") or default_backend()
 HARD_PROBLEMS = {"too_blurry", "too_small", "too_dark"}
 
 log = logging.getLogger("invoice_lm.api")
@@ -40,7 +59,7 @@ def mask(text: str) -> str:
 
 @app.get("/health")
 def health() -> dict:
-    return {"ok": True, "backend": BACKEND}
+    return {"ok": True, "backend": backend_label(BACKEND)}
 
 
 @app.post("/extract")
@@ -85,7 +104,7 @@ async def extract(file: UploadFile = File(...)) -> dict:
         **rep.to_dict(),
         "warnings": warnings,
         "quality": q.__dict__,
-        "model": {"backend": BACKEND, "seconds": out.get("seconds")},
+        "model": {"backend": backend_label(BACKEND), "seconds": out.get("seconds")},
     }
 
 

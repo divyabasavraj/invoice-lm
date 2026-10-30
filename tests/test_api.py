@@ -78,3 +78,18 @@ def test_demo_page_never_uses_innerhtml():
 
 def test_mask():
     assert api.mask("GSTIN 27AAPFU0939F1ZV total 131986") == "GSTIN 27***********ZV total 13****"
+
+
+def test_default_backend_is_the_fine_tune_when_the_adapter_exists(tmp_path):
+    (tmp_path / "adapters.safetensors").write_bytes(b"")
+    assert api.default_backend(tmp_path) == f"mlx:{api.BASE_MODEL}+{tmp_path}"
+
+
+def test_default_backend_falls_back_without_the_adapter(tmp_path):
+    assert api.default_backend(tmp_path / "missing") == api.FALLBACK_BACKEND
+
+
+def test_backend_label_hides_local_paths():
+    label = api.backend_label("mlx:org/model+/Users/someone/proj/runs/train/run1/adapters")
+    assert label == "mlx:org/model+lora:run1" and "/Users" not in label
+    assert api.backend_label("ollama:qwen3-vl:4b-instruct") == "ollama:qwen3-vl:4b-instruct"
