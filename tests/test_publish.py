@@ -43,5 +43,6 @@ def test_stage_model_copies_final_adapter_only(tmp_path):
         "README.md", "adapter_config.json", "adapters.safetensors"]
     card = (out / "README.md").read_text()
     assert card.startswith("---\n") and "base_model: mlx-community/Qwen3-VL-4B-Instruct-4bit" in card
-    assert "Limits" in card and str(tmp_path) not in card
+    assert "Limits" in card and str(tmp_path) not in card and "<user>" not in card
+    assert "datasets: [Divya52/indian-gst-invoices]" in card
     assert stage_model(tmp_path / "hf_model", src) == out  # rerunnable

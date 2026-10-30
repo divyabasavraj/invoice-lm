@@ -309,6 +309,9 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 
 18. 11:05  `[RESULT]` Pre-push check: 3.7 MB repo, no keys/tokens, no `.env`, no safetensors, no local paths. First `gh repo create --private` was blocked by the Claude Code permission check (external upload needs explicit approval); the user then asked for a public repo. Created **public** https://github.com/divyabasavraj/invoice-lm and pushed `main` (10 commits).
 
+19. 11:12  HF already logged in on this Mac as `Divya52` (an earlier `whoami` was hidden by CLI hints). Cards now name `Divya52/indian-gst-invoices` and `Divya52/invoicelm-qwen3vl-4b-lora`, link each other and the GitHub repo; model card usage loads the adapter with `snapshot_download`. Both repos don't exist yet. Restaged both. 597 tests. Files: `publish.py`, `tests/test_publish.py`.
+20. 11:13  `[FAILURE]` `hf upload` blocked by the Claude Code permission check (public upload needs the user's explicit approval or a permission rule). Handed the two commands to the user.
+
 ### End of day (provisional)
 - Done: LoRA r16 trained (6 h 09 min); fine-tuned 4B beats every baseline incl. 7B at 3× the speed; RESULTS.md written; silent errors explained.
 - Not done: HF upload (account + approval); model card; real-invoice test; git remote.
