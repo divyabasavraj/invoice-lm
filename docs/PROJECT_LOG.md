@@ -261,3 +261,11 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 - Done: chain re-armed with a session-independent watcher and running on mains power since 23:28; dataset release staged in `runs/hf_dataset`; 593 tests.
 - Not done: the chain itself (running; LoRA ~3 h 05 min, then evals + 7B baseline + report); HF upload (needs account + approval); model card (needs the fine-tune numbers); Gemini baseline (no key); native-speaker check; pass 2; git remote (repo exists locally, nothing pushed).
 - `[NEXT]` Plug in → chain starts by itself. When `runs/logs/overnight.log` says `all done`: read `docs/RESULTS.md`, fine-tuned vs untrained 4B, count supplier/buyer swaps, decide on a second epoch, then write the model card and stage the adapter.
+
+## Day 5: 2026-10-30: Overnight chain results (milestones 4, 6)
+**Goal for the day:** let the chain finish, read the before/after numbers, decide on a second epoch.
+
+### Steps
+1. 06:56  `[RESULT]` LoRA finished at 05:38: 1,613 steps in **6 h 09 min (13.74 s/step average)**, twice the 3 h 05 min estimated from the first 20 steps. Final train loss 0.0074; val loss 0.0060, val token accuracy 99.83%, val perplexity 1.006. Adapter in `runs/train/qwen3vl4b_lora_r16/adapters/adapters.safetensors`. No errors; `caffeinate` held the Mac awake all night; battery 100%.
+2. 06:56  `[FAILURE]` Time estimate: the first 20 steps (6.85 s) were not representative; later steps ran 8–37 s, and validation every 100 steps adds ~54 s each. Lesson: estimate from a window of 100+ steps including one validation, not the first 20.
+3. 06:56  `[RESULT]` Eval of the fine-tuned model in progress: 186/197 synth test images in 77 min (~25 s per invoice). Remaining: injection 24 and regional 40 (fine-tuned), then the untrained model on synth 60 / injection 24 / regional 40, then the 7B Ollama baseline and the report. ETA `all done` ~09:30.
