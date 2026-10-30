@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202627/01504\",\"invoice_date\":\"2026-05-08\",\"supplier\":{\"name\":\"Sahyadri & Sons Private Limited\",\"gstin\":\"29VZWXCZ604CZ2Z\",\"address\":\"302, Nehru Street, Bengaluru - 586068\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Ganga Suppliers\",\"gstin\":\"29ZFTFW0449H1ZL\",\"address\":\"377, Nehru Street, Mysuru - 573005\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Housekeeping Services\",\"hsn_sac\":\"998533\",\"quantity\":1.0,\"unit\":\"MONTH\",\"rate\":15389.0,\"taxable_value\":15389.0,\"gst_rate\":18.0,\"cgst_amount\":1385.01,\"sgst_amount\":1385.01,\"igst_amount\":null,\"total\":null},{\"description\":\"Corrugated Carton Box\",\"hsn_sac\":\"4819\",\"quantity\":50.0,\"unit\":\"PCS\",\"rate\":35.0,\"taxable_value\":1750.0,\"gst_rate\":5.0,\"cgst_amount\":43.75,\"sgst_amount\":43.75,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":17139.0,\"cgst\":1428.76,\"sgst\":1428.76,\"igst\":0.0,\"round_off\":0.48,\"grand_total\":19997.0}}",
+ "seconds": 18.0,
+ "prompt_tokens": 808,
+ "output_tokens": 421
+}

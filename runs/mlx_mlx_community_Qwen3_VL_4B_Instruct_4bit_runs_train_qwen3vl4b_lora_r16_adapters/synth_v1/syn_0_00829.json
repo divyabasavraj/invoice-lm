@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"GST-185\",\"invoice_date\":\"2026-08-01\",\"supplier\":{\"name\":\"Ganga Distributors\",\"gstin\":\"24TNUPK6736K1ZT\",\"address\":\"390, Industrial Area Phase 2, Ahmedabad - 361063\",\"state\":\"Gujarat\",\"state_code\":\"24\"},\"buyer\":{\"name\":\"Navkar Agencies\",\"gstin\":\"24IARFP4545K2ZI\",\"address\":\"187, Nehru Street, Surat - 362091\",\"state\":\"Gujarat\",\"state_code\":\"24\"},\"place_of_supply\":\"Gujarat (24)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Paracetamol 500mg Strip\",\"hsn_sac\":\"3004\",\"quantity\":25.0,\"unit\":\"STRIP\",\"rate\":28.0,\"taxable_value\":700.0,\"gst_rate\":5.0,\"cgst_amount\":17.5,\"sgst_amount\":17.5,\"igst_amount\":null,\"total\":null},{\"description\":\"Split AC 1.5 Ton\",\"hsn_sac\":\"8415\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":44640.0,\"taxable_value\":44640.0,\"gst_rate\":18.0,\"cgst_amount\":4017.6,\"sgst_amount\":4017.6,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":45340.0,\"cgst\":4035.1,\"sgst\":4035.1,\"igst\":0.0,\"round_off\":-0.2,\"grand_total\":53410.0}}",
+ "seconds": 18.75,
+ "prompt_tokens": 776,
+ "output_tokens": 409
+}

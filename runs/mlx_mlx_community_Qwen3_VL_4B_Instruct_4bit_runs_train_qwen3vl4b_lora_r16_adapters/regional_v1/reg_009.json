@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/3794\",\"invoice_date\":\"2025-05-06\",\"supplier\":{\"name\":\"Apmc Yard\",\"gstin\":\"29UPRCN4915K4Z9\",\"address\":\"183, APMC Yard, Bengaluru - 562071\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Nehru Street Consultancy Pvt Ltd\",\"gstin\":\"29TRSCF5993E9Z5\",\"address\":\"161, Nehru Street, Mangaluru - 589059\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Consulting Services\",\"hsn_sac\":\"998311\",\"quantity\":12.0,\"unit\":\"HRS\",\"rate\":2003.77,\"taxable_value\":24045.24,\"gst_rate\":18.0,\"cgst_amount\":2164.07,\"sgst_amount\":2164.07,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":24045.24,\"cgst\":2164.07,\"sgst\":2164.07,\"igst\":0.0,\"round_off\":-0.38,\"grand_total\":28373.0}}",
+ "seconds": 15.38,
+ "prompt_tokens": 776,
+ "output_tokens": 339
+}

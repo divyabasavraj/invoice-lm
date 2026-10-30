@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"3120\",\"invoice_date\":\"2025-11-29\",\"supplier\":{\"name\":\"Ganesh Suppliers Private Limited\",\"gstin\":\"29ICOCN8114E3ZU\",\"address\":\"80, Ring Road, Mangaluru - 584023\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Vinayaka Traders\",\"gstin\":\"29PTMCG9282D1ZM\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Paracetamol 500mg Strip\",\"hsn_sac\":\"3004\",\"quantity\":2.0,\"unit\":\"STRIP\",\"rate\":19.0,\"taxable_value\":38.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Copper Wire 1.5 sq mm 90m\",\"hsn_sac\":\"8544\",\"quantity\":5.0,\"unit\":\"COIL\",\"rate\":1623.0,\"taxable_value\":8115.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":8153.0,\"cgst\":731.3,\"sgst\":731.3,\"igst\":0.0,\"round_off\":0.4,\"grand_total\":9616.0}}",
+ "seconds": 16.22,
+ "prompt_tokens": 496,
+ "output_tokens": 368
+}

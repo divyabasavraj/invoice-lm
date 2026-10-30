@@ -1,0 +1,6 @@
+{
+ "text": "{\n  \"invoice_number\": \"INV/25-26/3098\",\n  \"invoice_date\": \"12/10/2025\",\n  \"supplier\": {\n    \"name\": \"\u0cae\u0ca8\u0ccd\u0ca8\u0cbe\u0c9c\u0ccd \u0caa\u0cc1\u0c9c\u0cbe\u0cb0\u0cbf\",\n    \"gstin\": \"29VJXFA7842C9ZP\",\n    \"address\": \"29, Gandhi Nagar, Bengaluru - 584038\",\n    \"state\": \"Karnataka\",\n    \"state_code\": \"KA\"\n  },\n  \"buyer\": {\n    \"name\": \"Navkar Corporation\",\n    \"gstin\": \"08VJHC01990V4Z6\",\n    \"address\": null,\n    \"state\": \"Rajasthan\",\n    \"state_code\": \"08\"\n  },\n  \"place_of_supply\": \"Rajasthan (08)\",\n  \"supply_type\": \"inter_state\",\n  \"reverse_charge\": false,\n  \"line_items\": [\n    {\n      \"description\": \"Housekeeping Services\",\n      \"hsn_sac\": \"998533\",\n      \"quantity\": 3,\n      \"unit\": \"MONTH\",\n      \"rate\": 16163,\n      \"taxable_value\": 48489,\n      \"gst_rate\": 18,\n      \"cgst_amount\": null,\n      \"sgst_amount\": null,\n      \"igst_amount\": 8728.02,\n      \"total\": 57217\n    }\n  ],\n  \"totals\": {\n    \"taxable_value\": 48489,\n    \"cgst\": 0,\n    \"sgst\": 0,\n    \"igst\": 8728.02,\n    \"round_off\": -0.02,\n    \"grand_total\": 57217\n  }\n}",
+ "seconds": 15.7,
+ "prompt_tokens": 1392,
+ "output_tokens": 423
+}

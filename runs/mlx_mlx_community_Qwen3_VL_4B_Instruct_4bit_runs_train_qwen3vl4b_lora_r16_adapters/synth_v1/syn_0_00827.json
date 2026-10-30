@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"265\",\"invoice_date\":\"2026-02-23\",\"supplier\":{\"name\":\"Ganesh Corporation\",\"gstin\":\"09LPLFK1385I3ZQ\",\"address\":\"243, MG Road, Noida - 235047\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"buyer\":{\"name\":\"Vinayaka Suppliers\",\"gstin\":\"09FHWCW6482Q1ZA\",\"address\":\"137, Gandhi Nagar, Lucknow - 280079\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"place_of_supply\":\"Uttar Pradesh (09)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Plastic Chair\",\"hsn_sac\":\"9401\",\"quantity\":25.0,\"unit\":\"PCS\",\"rate\":876.0,\"taxable_value\":21900.0,\"gst_rate\":18.0,\"cgst_amount\":1971.0,\"sgst_amount\":1971.0,\"igst_amount\":null,\"total\":null},{\"description\":\"Laptop 14 inch i5\",\"hsn_sac\":\"8471\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":57698.4,\"taxable_value\":57698.4,\"gst_rate\":18.0,\"cgst_amount\":5192.86,\"sgst_amount\":5192.86,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":79598.4,\"cgst\":7163.86,\"sgst\":7163.86,\"igst\":0.0,\"round_off\":-0.12,\"grand_total\":93926.0}}",
+ "seconds": 19.21,
+ "prompt_tokens": 776,
+ "output_tokens": 413
+}

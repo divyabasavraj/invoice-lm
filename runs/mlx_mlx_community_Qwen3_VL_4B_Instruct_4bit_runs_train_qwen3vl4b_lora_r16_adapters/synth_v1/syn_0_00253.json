@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"GST-122\",\"invoice_date\":\"2026-03-17\",\"supplier\":{\"name\":\"Ganesh & Sons\",\"gstin\":\"08SVXCP9429K3ZL\",\"address\":\"167, Main Bazaar, Jaipur - 328081\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"buyer\":{\"name\":\"Sri Marketing\",\"gstin\":\"08PLZCC2432E3ZF\",\"address\":\"387, APMC Yard, Udaipur - 330059\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Copper Wire 1.5 sq mm 90m\",\"hsn_sac\":\"8544\",\"quantity\":50.0,\"unit\":\"COIL\",\"rate\":2024.74,\"taxable_value\":101237.0,\"gst_rate\":18.0,\"cgst_amount\":9111.33,\"sgst_amount\":9111.33,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":101237.0,\"cgst\":9111.33,\"sgst\":9111.33,\"igst\":0.0,\"round_off\":0.34,\"grand_total\":119460.0}}",
+ "seconds": 14.4,
+ "prompt_tokens": 808,
+ "output_tokens": 337
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/01942\",\"invoice_date\":\"2025-07-18\",\"supplier\":{\"name\":\"Sahajdi Stores\",\"gstin\":\"07LMMCA5238O1Z5\",\"address\":\"387, Nehru Street, New Delhi - 110024\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"buyer\":{\"name\":\"Kumkha & Co LLP\",\"gstin\":\"07ACKCC1404H4ZT\",\"address\":\"350, MG Road, New Delhi - 110084\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"place_of_supply\":\"Delhi (07)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Laptop 14 inch i5\",\"hsn_sac\":\"8471\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":53113.0,\"taxable_value\":53113.0,\"gst_rate\":18.0,\"cgst_amount\":4780.17,\"sgst_amount\":4780.17,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":53113.0,\"cgst\":4780.17,\"sgst\":4780.17,\"igst\":0.0,\"round_off\":-0.34,\"grand_total\":62673.0}}",
+ "seconds": 15.17,
+ "prompt_tokens": 776,
+ "output_tokens": 333
+}

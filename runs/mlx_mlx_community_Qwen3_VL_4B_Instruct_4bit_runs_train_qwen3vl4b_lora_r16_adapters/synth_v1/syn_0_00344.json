@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-4078\",\"invoice_date\":\"2026-02-03\",\"supplier\":{\"name\":\"Shree Solutions\",\"gstin\":\"24OTLCJ9157W9DC\",\"address\":\"391, Ring Road, Vadodara - 369072\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Krishna Solutions\",\"gstin\":\"33TAECL6888I2ZR\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Tamil Nadu (33)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"A4 Copier Paper 75 GSM\",\"hsn_sac\":\"4802\",\"quantity\":12.0,\"unit\":\"REAM\",\"rate\":251.25,\"taxable_value\":3015.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Leather Shoes\",\"hsn_sac\":\"6403\",\"quantity\":4.0,\"unit\":\"PAIR\",\"rate\":1365.0,\"taxable_value\":5460.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":8475.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":815.7,\"round_off\":0.3,\"grand_total\":9291.0}}",
+ "seconds": 13.28,
+ "prompt_tokens": 248,
+ "output_tokens": 355
+}

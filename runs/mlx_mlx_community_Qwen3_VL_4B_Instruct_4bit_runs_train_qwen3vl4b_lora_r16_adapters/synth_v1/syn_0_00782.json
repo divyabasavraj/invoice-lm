@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/03809\",\"invoice_date\":\"2025-10-31\",\"supplier\":{\"name\":\"Krishna Industries\",\"gstin\":\"29VZOPE5289E9Z4\",\"address\":\"280, Nehru Street, Hubballi - 574042\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Bharat Traders\",\"gstin\":\"29NQCA9196V3ZS\",\"address\":\"305, MG Road, Mangaluru - 587053\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Housekeeping Services\",\"hsn_sac\":\"998533\",\"quantity\":1.0,\"unit\":\"MONTH\",\"rate\":43654.0,\"taxable_value\":43654.0,\"gst_rate\":18.0,\"cgst_amount\":3928.86,\"sgst_amount\":3928.86,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":43654.0,\"cgst\":3928.86,\"sgst\":3928.86,\"igst\":0.0,\"round_off\":0.28,\"grand_total\":51512.0}}",
+ "seconds": 15.76,
+ "prompt_tokens": 776,
+ "output_tokens": 333
+}

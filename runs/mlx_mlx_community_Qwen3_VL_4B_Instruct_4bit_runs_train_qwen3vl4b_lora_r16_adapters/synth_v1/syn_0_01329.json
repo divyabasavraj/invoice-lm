@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/3753\",\"invoice_date\":\"2026-03-17\",\"supplier\":{\"name\":\"Ganga & Sons\",\"gstin\":\"08HRXCL7357T2ZS\",\"address\":\"440, Industrial Area Phase 2, Jaipur - 317084\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"buyer\":{\"name\":\"Annapurna Marketing\",\"gstin\":\"08GMGFP8751F2Z4\",\"address\":\"180, Station Road, Jaipur - 308070\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"TMT Steel Bar 12mm\",\"hsn_sac\":\"7214\",\"quantity\":4.0,\"unit\":\"KG\",\"rate\":74.0,\"taxable_value\":296.0,\"gst_rate\":18.0,\"cgst_amount\":26.64,\"sgst_amount\":26.64,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":296.0,\"cgst\":26.64,\"sgst\":26.64,\"igst\":0.0,\"round_off\":-0.28,\"grand_total\":349.0}}",
+ "seconds": 15.26,
+ "prompt_tokens": 808,
+ "output_tokens": 319
+}

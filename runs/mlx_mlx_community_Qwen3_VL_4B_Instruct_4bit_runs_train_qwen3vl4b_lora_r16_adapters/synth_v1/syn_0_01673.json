@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/00449\",\"invoice_date\":\"2026-01-17\",\"supplier\":{\"name\":\"Bharat Marketing\",\"gstin\":\"07IKKCO9750W1ZB\",\"address\":\"197, MG Road, New Delhi - 110041\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"buyer\":{\"name\":\"Lakshmi Industries\",\"gstin\":\"07OYDCI7227R1Z8\",\"address\":\"391, Market Yard, New Delhi - 110008\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"place_of_supply\":\"Delhi (07)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Freight Charges (GTA)\",\"hsn_sac\":\"996511\",\"quantity\":1.0,\"unit\":\"TRIP\",\"rate\":4514.0,\"taxable_value\":4514.0,\"gst_rate\":5.0,\"cgst_amount\":112.85,\"sgst_amount\":112.85,\"igst_amount\":null,\"total\":null},{\"description\":\"Consulting Services\",\"hsn_sac\":\"998311\",\"quantity\":1.0,\"unit\":\"HRS\",\"rate\":1647.0,\"taxable_value\":1647.0,\"gst_rate\":18.0,\"cgst_amount\":148.23,\"sgst_amount\":148.23,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":6161.0,\"cgst\":261.08,\"sgst\":261.08,\"igst\":0.0,\"round_off\":-0.16,\"grand_total\":6683.0}}",
+ "seconds": 19.29,
+ "prompt_tokens": 776,
+ "output_tokens": 412
+}

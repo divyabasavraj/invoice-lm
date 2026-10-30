@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"TI-1931\",\"invoice_date\":\"2025-04-19\",\"supplier\":{\"name\":\"Sai Corporation LLP\",\"gstin\":\"07DUVCC0867G3Z0\",\"address\":\"85, Ring Road, New Delhi - 110055\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"buyer\":{\"name\":\"Annapurna Corporation Private Limited\",\"gstin\":\"07LTVCF7092I4ZE\",\"address\":\"121, Main Bazaar, New Delhi - 110007\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"place_of_supply\":\"Delhi (07)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Plastic Chair\",\"hsn_sac\":\"9401\",\"quantity\":3.0,\"unit\":\"PCS\",\"rate\":1818.0,\"taxable_value\":5454.0,\"gst_rate\":18.0,\"cgst_amount\":220.91,\"sgst_amount\":220.91,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":2454.54,\"cgst\":220.91,\"sgst\":220.91,\"igst\":0.0,\"round_off\":-0.36,\"grand_total\":2836.0}}",
+ "seconds": 14.43,
+ "prompt_tokens": 808,
+ "output_tokens": 313
+}

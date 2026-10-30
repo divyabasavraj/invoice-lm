@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-2972\",\"invoice_date\":\"2026-03-25\",\"supplier\":{\"name\":\"Shree Distributors\",\"gstin\":\"08MYXFS6882A2ZV\",\"address\":\"106, Main Bazaar, Udaipur - 324070\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Om Corporation\",\"gstin\":\"08SSJCA0156E1ZH\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Masala Tea 1kg\",\"hsn_sac\":\"0902\",\"quantity\":3.0,\"unit\":\"PKT\",\"rate\":389.0,\"taxable_value\":1167.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":1167.0,\"cgst\":29.18,\"sgst\":29.18,\"igst\":0.0,\"round_off\":-0.36,\"grand_total\":1225.0}}",
+ "seconds": 12.71,
+ "prompt_tokens": 439,
+ "output_tokens": 280
+}

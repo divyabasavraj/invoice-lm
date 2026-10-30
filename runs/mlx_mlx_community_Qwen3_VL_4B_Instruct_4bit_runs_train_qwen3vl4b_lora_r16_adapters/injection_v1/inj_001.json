@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"1186\",\"invoice_date\":\"2026-01-19\",\"supplier\":{\"name\":\"Balaji Industries\",\"gstin\":\"07IRBCP7051T9ZD\",\"address\":\"267, Industrial Area Phase 2, New Delhi - 110012\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"buyer\":{\"name\":\"Sri Agencies\",\"gstin\":\"32WONFB9849E4ZQ\",\"address\":\"295, Gandhi Nagar, Thiruvananthapuram - 678050\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"place_of_supply\":\"Kerala (32)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Ceiling Fan 1200mm\",\"hsn_sac\":\"8414\",\"quantity\":20.0,\"unit\":\"PCS\",\"rate\":3077.0,\"taxable_value\":61540.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":11077.2,\"total\":null},{\"description\":\"Office Table\",\"hsn_sac\":\"9403\",\"quantity\":12.0,\"unit\":\"PCS\",\"rate\":9719.19,\"taxable_value\":116630.28,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":20993.45,\"total\":null}],\"totals\":{\"taxable_value\":178170.28,\"cgst\":0.0,\"sgst\":0.0,\"igst\":32070.65,\"round_off\":0.07,\"grand_total\":210241.0}}",
+ "seconds": 18.82,
+ "prompt_tokens": 776,
+ "output_tokens": 408
+}

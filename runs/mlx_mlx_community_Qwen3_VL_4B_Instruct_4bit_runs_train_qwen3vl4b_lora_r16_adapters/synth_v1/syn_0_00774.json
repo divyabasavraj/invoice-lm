@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-56\",\"invoice_date\":\"2025-06-05\",\"supplier\":{\"name\":\"Annapurna Industries\",\"gstin\":\"29BVJPP7282Q9Z8\",\"address\":\"295, Market Yard, Mysuru - 587031\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Krishna Enterprises\",\"gstin\":\"29MQVFB6315W1ZY\",\"address\":\"359, Industrial Area Phase 2, Bengaluru - 575099\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Cement OPC 53 Grade 50kg\",\"hsn_sac\":\"2523\",\"quantity\":20.0,\"unit\":\"BAG\",\"rate\":376.0,\"taxable_value\":7520.0,\"gst_rate\":28.0,\"cgst_amount\":1052.8,\"sgst_amount\":1052.8,\"igst_amount\":null,\"total\":null},{\"description\":\"Hand Sanitizer 500ml\",\"hsn_sac\":\"3808\",\"quantity\":1.0,\"unit\":\"BTL\",\"rate\":145.0,\"taxable_value\":145.0,\"gst_rate\":18.0,\"cgst_amount\":13.05,\"sgst_amount\":13.05,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":7665.0,\"cgst\":1065.85,\"sgst\":1065.85,\"igst\":0.0,\"round_off\":0.3,\"grand_total\":9797.0}}",
+ "seconds": 18.98,
+ "prompt_tokens": 776,
+ "output_tokens": 413
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/02834\",\"invoice_date\":\"2025-05-05\",\"supplier\":{\"name\":\"Krishna Agencies Private Limited\",\"gstin\":\"07CWNCU2276O1Z9\",\"address\":\"398, Main Bazaar, New Delhi - 110039\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"buyer\":{\"name\":\"Vinayaka Enterprises LLP\",\"gstin\":null,\"address\":\"84, Nehru Street, New Delhi - 110075\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"place_of_supply\":\"Delhi (07)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Leather Shoes\",\"hsn_sac\":\"6403\",\"quantity\":1.0,\"unit\":\"PAIR\",\"rate\":3367.0,\"taxable_value\":3367.0,\"gst_rate\":18.0,\"cgst_amount\":303.03,\"sgst_amount\":303.03,\"igst_amount\":null,\"total\":null},{\"description\":\"Ceiling Fan 1200mm\",\"hsn_sac\":\"8414\",\"quantity\":10.0,\"unit\":\"PCS\",\"rate\":2166.12,\"taxable_value\":21661.2,\"gst_rate\":18.0,\"cgst_amount\":1949.51,\"sgst_amount\":1949.51,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":25028.2,\"cgst\":2252.54,\"sgst\":2252.54,\"igst\":0.0,\"round_off\":-0.28,\"grand_total\":29533.0}}",
+ "seconds": 18.82,
+ "prompt_tokens": 808,
+ "output_tokens": 409
+}

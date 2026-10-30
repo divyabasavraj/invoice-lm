@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/2986\",\"invoice_date\":\"2026-01-20\",\"supplier\":{\"name\":\"Bharat Distributors\",\"gstin\":\"08BBPH8108M4ZZ\",\"address\":\"353, Industrial Area Phase 2, Udaipur - 343010\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"buyer\":{\"name\":\"Sahyadri Distributors Private Limited\",\"gstin\":\"09XAHCX7876R9Z2\",\"address\":\"118, Nehru Street, Kanpur - 269070\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"place_of_supply\":\"Uttar Pradesh (09)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Corrugated Carton Box\",\"hsn_sac\":\"4819\",\"quantity\":20.0,\"unit\":\"PCS\",\"rate\":46.0,\"taxable_value\":920.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":46.0,\"total\":null},{\"description\":\"PVC Pipe 4 inch 6m\",\"hsn_sac\":\"3917\",\"quantity\":12.0,\"unit\":\"PCS\",\"rate\":935.45,\"taxable_value\":11225.4,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":2020.57,\"total\":null}],\"totals\":{\"taxable_value\":12145.4,\"cgst\":0.0,\"sgst\":0.0,\"igst\":2066.57,\"round_off\":0.03,\"grand_total\":14212.0}}",
+ "seconds": 19.2,
+ "prompt_tokens": 776,
+ "output_tokens": 412
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202627/00688\",\"invoice_date\":\"2026-06-28\",\"supplier\":{\"name\":\"Balaji Industries\",\"gstin\":\"27IGJPK0640T1ZN\",\"address\":\"13, Market Yard, Mumbai - 431018\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"buyer\":{\"name\":\"Navkar Agencies\",\"gstin\":\"27MFOFS9826I1ZR\",\"address\":\"98, MG Road, Nashik - 423092\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"place_of_supply\":\"Maharashtra (27)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Annual Maintenance Contract\",\"hsn_sac\":\"998713\",\"quantity\":1.0,\"unit\":\"NOS\",\"rate\":27547.0,\"taxable_value\":27547.0,\"gst_rate\":18.0,\"cgst_amount\":2479.23,\"sgst_amount\":2479.23,\"igst_amount\":null,\"total\":null},{\"description\":\"Corrugated Carton Box\",\"hsn_sac\":\"4819\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":29.0,\"taxable_value\":29.0,\"gst_rate\":5.0,\"cgst_amount\":0.72,\"sgst_amount\":0.72,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":27576.0,\"cgst\":2479.95,\"sgst\":2479.95,\"igst\":0.0,\"round_off\":0.1,\"grand_total\":32536.0}}",
+ "seconds": 18.78,
+ "prompt_tokens": 776,
+ "output_tokens": 402
+}

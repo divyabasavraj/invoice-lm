@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"GST-617\",\"invoice_date\":\"2025-08-17\",\"supplier\":{\"name\":\"Krishna Solutions\",\"gstin\":\"36ANACG2234D4ZD\",\"address\":\"282, Market Yard, Hyderabad - 504053\",\"state\":\"Telangana\",\"state_code\":\"36\"},\"buyer\":{\"name\":\"Sahyadri Industries\",\"gstin\":\"33YHYGL2635D4ZA\",\"address\":\"435, Main Bazaar, Chennai - 623071\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"place_of_supply\":\"Tamil Nadu (33)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Freight Charges (GTA)\",\"hsn_sac\":\"996511\",\"quantity\":1.0,\"unit\":\"TRIP\",\"rate\":12487.01,\"taxable_value\":12487.01,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":624.35,\"total\":null},{\"description\":\"Plastic Chair\",\"hsn_sac\":\"9401\",\"quantity\":10.0,\"unit\":\"PCS\",\"rate\":472.0,\"taxable_value\":4720.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":849.6,\"total\":null}],\"totals\":{\"taxable_value\":17207.01,\"cgst\":0.0,\"sgst\":0.0,\"igst\":1473.95,\"round_off\":0.04,\"grand_total\":18681.0}}",
+ "seconds": 18.55,
+ "prompt_tokens": 808,
+ "output_tokens": 396
+}

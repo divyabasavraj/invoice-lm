@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"TI-2408\",\"invoice_date\":\"2026-05-17\",\"supplier\":{\"name\":\"Vinayaka Distributors Private Limited\",\"gstin\":\"27NPXCH3601W1ZA\",\"address\":\"43, MG Road, Nashik - 424043\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"buyer\":{\"name\":\"Sri Enterprises\",\"gstin\":\"19TWRFL4504T4ZI\",\"address\":\"56, APMC Yard, Kolkata - 709040\",\"state\":\"West Bengal\",\"state_code\":\"19\"},\"place_of_supply\":\"West Bengal (19)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Copper Wire 1.5 sq mm 90m\",\"hsn_sac\":\"8544\",\"quantity\":50.0,\"unit\":\"COIL\",\"rate\":1805.0,\"taxable_value\":90250.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":16245.0,\"total\":null}],\"totals\":{\"taxable_value\":90250.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":16245.0,\"round_off\":0.0,\"grand_total\":106495.0}}",
+ "seconds": 15.45,
+ "prompt_tokens": 808,
+ "output_tokens": 318
+}

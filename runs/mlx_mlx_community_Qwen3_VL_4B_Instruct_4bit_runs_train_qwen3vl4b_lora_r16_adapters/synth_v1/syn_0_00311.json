@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/4858\",\"invoice_date\":\"2026-06-20\",\"supplier\":{\"name\":\"Ganga Traders\",\"gstin\":\"27YQOFN2144F9ZH\",\"address\":\"48, Industrial Area Phase 2, Mumbai - 423065\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"buyer\":{\"name\":\"Krishna Corporation\",\"gstin\":\"27WVMCT6522Y3Z8\",\"address\":\"284, Main Bazaar, Nashik - 413010\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"place_of_supply\":\"Maharashtra (27)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Housekeeping Services\",\"hsn_sac\":\"998533\",\"quantity\":2.0,\"unit\":\"MONTH\",\"rate\":21869.0,\"taxable_value\":43738.0,\"gst_rate\":18.0,\"cgst_amount\":3936.42,\"sgst_amount\":3936.42,\"igst_amount\":null,\"total\":null},{\"description\":\"Office Table\",\"hsn_sac\":\"9403\",\"quantity\":3.0,\"unit\":\"PCS\",\"rate\":9240.49,\"taxable_value\":27721.47,\"gst_rate\":18.0,\"cgst_amount\":2494.93,\"sgst_amount\":2494.93,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":71459.47,\"cgst\":6431.35,\"sgst\":6431.35,\"igst\":0.0,\"round_off\":-0.17,\"grand_total\":84322.0}}",
+ "seconds": 17.31,
+ "prompt_tokens": 776,
+ "output_tokens": 422
+}

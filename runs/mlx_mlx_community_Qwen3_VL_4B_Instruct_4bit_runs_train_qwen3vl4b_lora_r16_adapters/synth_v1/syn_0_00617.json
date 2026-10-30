@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/3191\",\"invoice_date\":\"2025-09-01\",\"supplier\":{\"name\":\"Sahyadri Agencies\",\"gstin\":\"29TXQCP3101L1ZA\",\"address\":\"441, Ring Road, Hubballi - 572037\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Shree Traders LLP\",\"gstin\":null,\"address\":\"97, Ring Road, Mangaluru - 591025\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Annual Maintenance Contract\",\"hsn_sac\":\"998713\",\"quantity\":1.0,\"unit\":\"NOS\",\"rate\":9721.01,\"taxable_value\":9721.01,\"gst_rate\":18.0,\"cgst_amount\":874.89,\"sgst_amount\":874.89,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":9721.01,\"cgst\":874.89,\"sgst\":874.89,\"igst\":0.0,\"round_off\":0.21,\"grand_total\":11471.0}}",
+ "seconds": 15.42,
+ "prompt_tokens": 776,
+ "output_tokens": 317
+}

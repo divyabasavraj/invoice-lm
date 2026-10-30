@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"975\",\"invoice_date\":\"2026-05-14\",\"supplier\":{\"name\":\"Shree Industries\",\"gstin\":\"33IZWCN4373L2Z3\",\"address\":\"53, Nehru Street, Coimbatore - 617011\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"buyer\":{\"name\":\"Sri Traders LLP\",\"gstin\":null,\"address\":\"447, Main Bazaar, Coimbatore - 628010\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"place_of_supply\":\"Tamil Nadu (33)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Toor Dal\",\"hsn_sac\":\"0713\",\"quantity\":1.0,\"unit\":\"KG\",\"rate\":179.63,\"taxable_value\":179.63,\"gst_rate\":0.0,\"cgst_amount\":0.0,\"sgst_amount\":0.0,\"igst_amount\":null,\"total\":null},{\"description\":\"Annual Maintenance Contract\",\"hsn_sac\":\"998713\",\"quantity\":2.0,\"unit\":\"NOS\",\"rate\":14961.0,\"taxable_value\":29922.0,\"gst_rate\":18.0,\"cgst_amount\":2692.98,\"sgst_amount\":2692.98,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":30101.63,\"cgst\":2692.98,\"sgst\":2692.98,\"igst\":0.0,\"round_off\":0.41,\"grand_total\":35488.0}}",
+ "seconds": 18.0,
+ "prompt_tokens": 776,
+ "output_tokens": 394
+}

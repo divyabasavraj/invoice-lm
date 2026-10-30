@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-3634\",\"invoice_date\":\"2025-08-12\",\"supplier\":{\"name\":\"Ganesh & Sons\",\"gstin\":\"24IERFL2804D1Z4\",\"address\":\"297, Station Road, Ahmedabad - 367037\",\"state\":\"Gujarat\",\"state_code\":\"24\"},\"buyer\":{\"name\":\"Sai Marketing\",\"gstin\":\"09HGSFE0348G1ZQ\",\"address\":\"85, Ring Road, Noida - 267045\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"place_of_supply\":\"Uttar Pradesh (09)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Annual Maintenance Contract\",\"hsn_sac\":\"998713\",\"quantity\":3.0,\"unit\":\"NOS\",\"rate\":9873.0,\"taxable_value\":29619.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":5331.42,\"total\":null},{\"description\":\"Corrugated Carton Box\",\"hsn_sac\":\"4819\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":31.0,\"taxable_value\":31.0,\"gst_rate\":12.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":3.72,\"total\":null}],\"totals\":{\"taxable_value\":29650.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":5335.14,\"round_off\":-0.14,\"grand_total\":34985.0}}",
+ "seconds": 18.29,
+ "prompt_tokens": 776,
+ "output_tokens": 391
+}

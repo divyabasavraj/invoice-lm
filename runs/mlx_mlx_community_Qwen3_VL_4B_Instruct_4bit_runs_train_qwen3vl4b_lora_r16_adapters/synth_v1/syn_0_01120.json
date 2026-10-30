@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202627/02978\",\"invoice_date\":\"2026-05-22\",\"supplier\":{\"name\":\"Sahyadri Distributors\",\"gstin\":\"07SCHFA5193T9ZU\",\"address\":\"274, Nehru Street, New Delhi - 110048\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"buyer\":{\"name\":\"Om Industries\",\"gstin\":\"07WFEFC8728D4ZN\",\"address\":\"213, Nehru Street, New Delhi - 110059\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"place_of_supply\":\"Delhi (07)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Hand Sanitizer 500ml\",\"hsn_sac\":\"3808\",\"quantity\":6.0,\"unit\":\"BTL\",\"rate\":138.0,\"taxable_value\":828.0,\"gst_rate\":18.0,\"cgst_amount\":74.52,\"sgst_amount\":74.52,\"igst_amount\":null,\"total\":null},{\"description\":\"Ball Pen (Box of 50)\",\"hsn_sac\":\"9608\",\"quantity\":20.0,\"unit\":\"BOX\",\"rate\":417.12,\"taxable_value\":8342.4,\"gst_rate\":18.0,\"cgst_amount\":750.82,\"sgst_amount\":750.82,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":9170.4,\"cgst\":825.34,\"sgst\":825.34,\"igst\":0.0,\"round_off\":-0.08,\"grand_total\":10821.0}}",
+ "seconds": 18.77,
+ "prompt_tokens": 776,
+ "output_tokens": 413
+}

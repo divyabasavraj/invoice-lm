@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/3460\",\"invoice_date\":\"2025-07-01\",\"supplier\":{\"name\":\"Ganga & Sons\",\"gstin\":\"32MSHCH6629S3Z0\",\"address\":\"409, Main Bazaar, Kochi - 679092\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"buyer\":{\"name\":\"Navkar Suppliers\",\"gstin\":\"32IFXFN2955E1ZJ\",\"address\":\"65, Nehru Street, Thiruvananthapuram - 691060\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"place_of_supply\":\"Kerala (32)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Masala Tea 1kg\",\"hsn_sac\":\"0902\",\"quantity\":20.0,\"unit\":\"PKT\",\"rate\":457.0,\"taxable_value\":9140.0,\"gst_rate\":5.0,\"cgst_amount\":228.5,\"sgst_amount\":228.5,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":9140.0,\"cgst\":228.5,\"sgst\":228.5,\"igst\":0.0,\"round_off\":0.0,\"grand_total\":9597.0}}",
+ "seconds": 13.67,
+ "prompt_tokens": 808,
+ "output_tokens": 319
+}

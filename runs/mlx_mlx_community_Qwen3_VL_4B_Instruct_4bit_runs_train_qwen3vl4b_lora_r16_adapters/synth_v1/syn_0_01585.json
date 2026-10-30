@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-178\",\"invoice_date\":\"2025-05-14\",\"supplier\":{\"name\":\"Shree Suppliers\",\"gstin\":\"29HFZFC9494E9ZS\",\"address\":\"30, APMC Yard, Hubballi - 571096\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Shree Industries\",\"gstin\":\"09BKGF4534R1ZX\",\"address\":\"204, MG Road, Lucknow - 243047\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"place_of_supply\":\"Uttar Pradesh (09)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Laptop 14 inch i5\",\"hsn_sac\":\"8471\",\"quantity\":2.0,\"unit\":\"PCS\",\"rate\":63743.0,\"taxable_value\":127486.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":22947.48,\"total\":null},{\"description\":\"Ceiling Fan 1200mm\",\"hsn_sac\":\"8414\",\"quantity\":4.0,\"unit\":\"PCS\",\"rate\":2037.0,\"taxable_value\":8148.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":1446.64,\"total\":null}],\"totals\":{\"taxable_value\":135634.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":24414.12,\"round_off\":-0.12,\"grand_total\":160048.0}}",
+ "seconds": 18.79,
+ "prompt_tokens": 776,
+ "output_tokens": 406
+}

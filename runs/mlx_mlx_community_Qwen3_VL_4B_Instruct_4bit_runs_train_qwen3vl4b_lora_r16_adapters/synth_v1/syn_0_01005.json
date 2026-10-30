@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/26-27/1363\",\"invoice_date\":\"2026-08-14\",\"supplier\":{\"name\":\"Shree Agencies\",\"gstin\":\"08PNTFY6602D1ZP\",\"address\":\"143, Market Yard, Jaipur - 338036\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"buyer\":{\"name\":\"Annapurna Industries Pvt Ltd\",\"gstin\":\"08URECF6998V1ZO\",\"address\":\"129, APMC Yard, Jaipur - 313098\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Office Table\",\"hsn_sac\":\"9403\",\"quantity\":50.0,\"unit\":\"PCS\",\"rate\":10602.0,\"taxable_value\":53010.0,\"gst_rate\":18.0,\"cgst_amount\":47709.0,\"sgst_amount\":47709.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":53010.0,\"cgst\":47709.0,\"sgst\":47709.0,\"igst\":0.0,\"round_off\":0.0,\"grand_total\":625518.0}}",
+ "seconds": 15.59,
+ "prompt_tokens": 776,
+ "output_tokens": 328
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/26-27/0077\",\"invoice_date\":\"2026-09-10\",\"supplier\":{\"name\":\"Ganesh Enterprises\",\"gstin\":\"19JSLFO4887J3Z2\",\"address\":\"38, Station Road, Kolkata - 712089\",\"state\":\"West Bengal\",\"state_code\":\"19\"},\"buyer\":{\"name\":\"Sahyadri Distributors\",\"gstin\":\"19CKAPA1212V1Z2\",\"address\":\"194, Market Yard, Howrah - 714012\",\"state\":\"West Bengal\",\"state_code\":\"19\"},\"place_of_supply\":\"West Bengal (19)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Cement OPC 53 Grade 50kg\",\"hsn_sac\":\"2523\",\"quantity\":5.0,\"unit\":\"BAG\",\"rate\":436.0,\"taxable_value\":2180.0,\"gst_rate\":18.0,\"cgst_amount\":196.2,\"sgst_amount\":196.2,\"igst_amount\":null,\"total\":null},{\"description\":\"Leather Shoes\",\"hsn_sac\":\"6403\",\"quantity\":25.0,\"unit\":\"PAIR\",\"rate\":2055.0,\"taxable_value\":51375.0,\"gst_rate\":5.0,\"cgst_amount\":1284.38,\"sgst_amount\":1284.38,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":53555.0,\"cgst\":1480.58,\"sgst\":1480.58,\"igst\":0.0,\"round_off\":-0.16,\"grand_total\":56516.0}}",
+ "seconds": 19.37,
+ "prompt_tokens": 808,
+ "output_tokens": 415
+}

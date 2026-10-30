@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"GST-4218\",\"invoice_date\":\"2025-07-14\",\"supplier\":{\"name\":\"Om Solutions LLP\",\"gstin\":\"33GETCP0769D1ZV\",\"address\":\"214, APMC Yard, Madurai - 638079\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"buyer\":{\"name\":\"Sai & Sons Pvt Ltd\",\"gstin\":\"33NXRCZ1554W1ZH\",\"address\":\"93, APMC Yard, Madurai - 623067\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"place_of_supply\":\"Tamil Nadu (33)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"TMT Steel Bar 12mm\",\"hsn_sac\":\"7214\",\"quantity\":1.0,\"unit\":\"KG\",\"rate\":66.0,\"taxable_value\":66.0,\"gst_rate\":18.0,\"cgst_amount\":5.94,\"sgst_amount\":5.94,\"igst_amount\":null,\"total\":null},{\"description\":\"Freight Charges (GTA)\",\"hsn_sac\":\"996511\",\"quantity\":1.0,\"unit\":\"TRIP\",\"rate\":8582.0,\"taxable_value\":8582.0,\"gst_rate\":5.0,\"cgst_amount\":214.55,\"sgst_amount\":214.55,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":8648.0,\"cgst\":220.49,\"sgst\":220.49,\"igst\":0.0,\"round_off\":0.02,\"grand_total\":9089.0}}",
+ "seconds": 19.17,
+ "prompt_tokens": 776,
+ "output_tokens": 401
+}

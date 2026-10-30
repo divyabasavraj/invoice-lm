@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/26-27/3712\",\"invoice_date\":\"2026-05-31\",\"supplier\":{\"name\":\"Annapurna Traders\",\"gstin\":\"27QJPPY9646O1ZA\",\"address\":\"59, Ring Road, Nashik - 439083\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"buyer\":{\"name\":\"Vinayaka Enterprises\",\"gstin\":\"36YTZFO7097V1ZP\",\"address\":\"322, Industrial Area Phase 2, Warangal - 501018\",\"state\":\"Telangana\",\"state_code\":\"36\"},\"place_of_supply\":\"Telangana (36)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"TMT Steel Bar 12mm\",\"hsn_sac\":\"7214\",\"quantity\":1.0,\"unit\":\"KG\",\"rate\":59.0,\"taxable_value\":59.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":10.62,\"total\":null},{\"description\":\"Corrugated Carton Box\",\"hsn_sac\":\"4819\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":58.0,\"taxable_value\":58.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":2.9,\"total\":null}],\"totals\":{\"taxable_value\":117.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":13.52,\"round_off\":0.48,\"grand_total\":131.0}}",
+ "seconds": 15.87,
+ "prompt_tokens": 776,
+ "output_tokens": 388
+}

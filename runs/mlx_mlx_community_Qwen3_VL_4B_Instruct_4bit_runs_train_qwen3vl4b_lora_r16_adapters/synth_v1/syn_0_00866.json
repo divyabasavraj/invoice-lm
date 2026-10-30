@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"TI-3195\",\"invoice_date\":\"2025-06-09\",\"supplier\":{\"name\":\"Ganesh Corporation\",\"gstin\":\"08JQFY0988U4ZS\",\"address\":\"156, Market Yard, Udaipur - 329096\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"buyer\":{\"name\":\"Vinayaka Agencies\",\"gstin\":\"08UQWFA7574T3ZT\",\"address\":\"297, MG Road, Udaipur - 334077\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Laptop 14 inch i5\",\"hsn_sac\":\"8471\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":55777.0,\"taxable_value\":55777.0,\"gst_rate\":18.0,\"cgst_amount\":5019.93,\"sgst_amount\":5019.93,\"igst_amount\":null,\"total\":null},{\"description\":\"A4 Copier Paper 75 GSM\",\"hsn_sac\":\"4802\",\"quantity\":3.0,\"unit\":\"REAM\",\"rate\":249.0,\"taxable_value\":747.0,\"gst_rate\":12.0,\"cgst_amount\":44.82,\"sgst_amount\":44.82,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":56524.0,\"cgst\":5064.75,\"sgst\":5064.75,\"igst\":0.0,\"round_off\":0.5,\"grand_total\":66654.0}}",
+ "seconds": 19.31,
+ "prompt_tokens": 808,
+ "output_tokens": 416
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/26-27/3121\",\"invoice_date\":\"2026-04-18\",\"supplier\":{\"name\":\"Navkar Suppliers Private Limited\",\"gstin\":\"29PTMCR8815V9Z9\",\"address\":\"422, Market Yard, Belagavi - 562019\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Sahyadri Industries Pvt Ltd\",\"gstin\":\"08RFWCS9514F1Z0\",\"address\":\"71, Station Road, Udaipur - 341077\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Copper Wire 1.5 sq mm 90m\",\"hsn_sac\":\"8544\",\"quantity\":3.0,\"unit\":\"COIL\",\"rate\":1334.43,\"taxable_value\":4003.29,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":720.59,\"total\":null},{\"description\":\"Toor Dal\",\"hsn_sac\":\"0713\",\"quantity\":50.0,\"unit\":\"KG\",\"rate\":124.12,\"taxable_value\":6206.0,\"gst_rate\":0.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":0.0,\"total\":null}],\"totals\":{\"taxable_value\":10209.29,\"cgst\":0.0,\"sgst\":0.0,\"igst\":720.59,\"round_off\":0.12,\"grand_total\":10930.0}}",
+ "seconds": 18.94,
+ "prompt_tokens": 776,
+ "output_tokens": 410
+}

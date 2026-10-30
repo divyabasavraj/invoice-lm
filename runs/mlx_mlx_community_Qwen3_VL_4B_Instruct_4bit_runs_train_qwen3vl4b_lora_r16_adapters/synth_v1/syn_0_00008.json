@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"733\",\"invoice_date\":\"2025-04-05\",\"supplier\":{\"name\":\"Shree Solutions\",\"gstin\":\"19KYZCG1000W1ZI\",\"address\":\"448, Market Yard, Howrah - 734073\",\"state\":\"West Bengal\",\"state_code\":\"19\"},\"buyer\":{\"name\":\"Sri Marketing Private Limited\",\"gstin\":\"27IAVCX4837X1ZE\",\"address\":\"377, Station Road, Nashik - 437026\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"place_of_supply\":\"Maharashtra (27)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Split AC 1.5 Ton\",\"hsn_sac\":\"8415\",\"quantity\":3.0,\"unit\":\"PCS\",\"rate\":43646.0,\"taxable_value\":130938.0,\"gst_rate\":28.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":36662.64,\"total\":null},{\"description\":\"Housekeeping Services\",\"hsn_sac\":\"998533\",\"quantity\":2.0,\"unit\":\"MONTH\",\"rate\":22346.0,\"taxable_value\":44692.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":8044.56,\"total\":null}],\"totals\":{\"taxable_value\":175630.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":44707.2,\"round_off\":-0.2,\"grand_total\":220337.0}}",
+ "seconds": 18.78,
+ "prompt_tokens": 808,
+ "output_tokens": 398
+}

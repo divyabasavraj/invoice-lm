@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/1690\",\"invoice_date\":\"2025-10-13\",\"supplier\":{\"name\":\"Navkar Stores\",\"gstin\":\"32IEEPQ6707I2Z8\",\"address\":\"249, Gandhi Nagar, Thiruvananthapuram - 689088\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"buyer\":{\"name\":\"Om Suppliers Private Limited\",\"gstin\":\"32LLYCT7023Q3ZI\",\"address\":\"145, Main Bazaar, Kochi - 693002\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"place_of_supply\":\"Kerala (32)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Ceiling Fan 1200mm\",\"hsn_sac\":\"8414\",\"quantity\":50.0,\"unit\":\"PCS\",\"rate\":2956.0,\"taxable_value\":147800.0,\"gst_rate\":18.0,\"cgst_amount\":13302.0,\"sgst_amount\":13302.0,\"igst_amount\":null,\"total\":null},{\"description\":\"Cement OPC 53 Grade 50kg\",\"hsn_sac\":\"2523\",\"quantity\":3.0,\"unit\":\"BAG\",\"rate\":428.0,\"taxable_value\":1284.0,\"gst_rate\":18.0,\"cgst_amount\":115.56,\"sgst_amount\":115.56,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":149084.0,\"cgst\":13417.56,\"sgst\":13417.56,\"igst\":0.0,\"round_off\":-0.12,\"grand_total\":175919.0}}",
+ "seconds": 19.89,
+ "prompt_tokens": 776,
+ "output_tokens": 434
+}

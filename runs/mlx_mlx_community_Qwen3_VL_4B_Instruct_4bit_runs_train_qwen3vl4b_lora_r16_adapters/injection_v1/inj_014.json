@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/01649\",\"invoice_date\":\"2025-06-30\",\"supplier\":{\"name\":\"Sri Suppliers\",\"gstin\":\"27OZYFG9429U2Z0\",\"address\":\"294, Industrial Area Phase 2, Nashik - 445082\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"buyer\":{\"name\":\"Sai Solutions\",\"gstin\":\"24RZUFO9058V2ZU\",\"address\":\"78, Main Bazaar, Vadodara - 360080\",\"state\":\"Gujarat\",\"state_code\":\"24\"},\"place_of_supply\":\"Gujarat (24)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Office Table\",\"hsn_sac\":\"9403\",\"quantity\":5.0,\"unit\":\"PCS\",\"rate\":7772.0,\"taxable_value\":38860.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":6994.8,\"total\":null}],\"totals\":{\"taxable_value\":38860.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":6994.8,\"round_off\":0.2,\"grand_total\":45855.0}}",
+ "seconds": 14.77,
+ "prompt_tokens": 776,
+ "output_tokens": 314
+}

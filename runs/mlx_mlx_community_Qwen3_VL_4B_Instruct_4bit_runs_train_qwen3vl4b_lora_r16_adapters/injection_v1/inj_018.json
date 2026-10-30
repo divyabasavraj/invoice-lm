@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"TI-2349\",\"invoice_date\":\"2026-02-06\",\"supplier\":{\"name\":\"Ganga Corporation\",\"gstin\":\"32JPOCR5281I3ZW\",\"address\":\"148, Gandhi Nagar, Thiruvananthapuram - 673087\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"buyer\":{\"name\":\"Shree Solutions\",\"gstin\":\"32UYNPW6367I1Z5\",\"address\":\"79, Main Bazaar, Kochi - 684011\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"place_of_supply\":\"Kerala (32)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Housekeeping Services\",\"hsn_sac\":\"998533\",\"quantity\":1.0,\"unit\":\"MONTH\",\"rate\":30665.0,\"taxable_value\":30665.0,\"gst_rate\":18.0,\"cgst_amount\":2759.85,\"sgst_amount\":2759.85,\"igst_amount\":null,\"total\":null},{\"description\":\"Split AC 1.5 Ton\",\"hsn_sac\":\"8415\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":35218.0,\"taxable_value\":35218.0,\"gst_rate\":18.0,\"cgst_amount\":3169.62,\"sgst_amount\":3169.62,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":65883.0,\"cgst\":5929.47,\"sgst\":5929.47,\"igst\":0.0,\"round_off\":0.06,\"grand_total\":77742.0}}",
+ "seconds": 18.88,
+ "prompt_tokens": 776,
+ "output_tokens": 416
+}

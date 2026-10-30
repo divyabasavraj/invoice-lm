@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/0128\",\"invoice_date\":\"2026-01-21\",\"supplier\":{\"name\":\"Lakshmi Agencies\",\"gstin\":\"24BTRPE4623E3ZT\",\"address\":\"211, Station Road, Ahmedabad - 381019\",\"state\":\"Gujarat\",\"state_code\":\"24\"},\"buyer\":{\"name\":\"Balaji Distributors\",\"gstin\":\"08DPUFR5471Z1ZL\",\"address\":\"194, MG Road, Udaipur - 314059\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Office Table\",\"hsn_sac\":\"9403\",\"quantity\":6.0,\"unit\":\"PCS\",\"rate\":6446.0,\"taxable_value\":38676.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":6961.68,\"total\":null}],\"totals\":{\"taxable_value\":38676.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":6961.68,\"round_off\":0.32,\"grand_total\":45638.0}}",
+ "seconds": 15.18,
+ "prompt_tokens": 808,
+ "output_tokens": 316
+}

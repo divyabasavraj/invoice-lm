@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"TI-2573\",\"invoice_date\":\"2025-07-24\",\"supplier\":{\"name\":\"Bharat Ducts\",\"gstin\":\"09PCR FH1008K1ZO\",\"address\":\"27, Ring Road, Kanpur - 250087\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Ganesh & Sons\",\"gstin\":\"19LVS FH8358Q1ZK\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"West Bengal (19)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"A4 Copier Paper 75 GSM\",\"hsn_sac\":\"4802\",\"quantity\":1.0,\"unit\":\"REAM\",\"rate\":274.24,\"taxable_value\":274.24,\"gst_rate\":12.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"20 PCS x 498.00\",\"hsn_sac\":\"9401\",\"quantity\":20.0,\"unit\":\"PCS\",\"rate\":498.0,\"taxable_value\":9960.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":10508.48,\"cgst\":0.0,\"sgst\":0.0,\"igst\":1858.62,\"round_off\":-0.1,\"grand_total\":12367.0}}",
+ "seconds": 15.4,
+ "prompt_tokens": 436,
+ "output_tokens": 369
+}

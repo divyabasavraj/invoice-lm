@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/01730\",\"invoice_date\":\"2025-12-04\",\"supplier\":{\"name\":\"Kaveri Stores\",\"gstin\":\"27HYXCG8027Z9Z7\",\"address\":\"204, Market Yard, Pune - 438098\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Balaji Enterprises\",\"gstin\":\"24GCOCF5716J1Z3\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Gujarat (24)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Annual Maintenance Contract\",\"hsn_sac\":\"11199.04\",\"quantity\":1.0,\"unit\":\"NOS\",\"rate\":11199.04,\"taxable_value\":11199.04,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Wireless Mouse\",\"hsn_sac\":\"8471\",\"quantity\":100.0,\"unit\":\"PCS\",\"rate\":376.0,\"taxable_value\":37600.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Masala Tea 1kg\",\"hsn_sac\":\"0902\",\"quantity\":4.0,\"unit\":\"PKT\",\"rate\":577.0,\"taxable_value\":2308.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":51107.04,\"cgst\":0.0,\"sgst\":0.0,\"igst\":8899.23,\"round_off\":-0.27,\"grand_total\":60006.0}}",
+ "seconds": 19.08,
+ "prompt_tokens": 306,
+ "output_tokens": 450
+}

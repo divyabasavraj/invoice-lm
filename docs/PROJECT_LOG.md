@@ -269,3 +269,21 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 1. 06:56  `[RESULT]` LoRA finished at 05:38: 1,613 steps in **6 h 09 min (13.74 s/step average)**, twice the 3 h 05 min estimated from the first 20 steps. Final train loss 0.0074; val loss 0.0060, val token accuracy 99.83%, val perplexity 1.006. Adapter in `runs/train/qwen3vl4b_lora_r16/adapters/adapters.safetensors`. No errors; `caffeinate` held the Mac awake all night; battery 100%.
 2. 06:56  `[FAILURE]` Time estimate: the first 20 steps (6.85 s) were not representative; later steps ran 8–37 s, and validation every 100 steps adds ~54 s each. Lesson: estimate from a window of 100+ steps including one validation, not the first 20.
 3. 06:56  `[RESULT]` Eval of the fine-tuned model in progress: 186/197 synth test images in 77 min (~25 s per invoice). Remaining: injection 24 and regional 40 (fine-tuned), then the untrained model on synth 60 / injection 24 / regional 40, then the 7B Ollama baseline and the report. ETA `all done` ~09:30.
+4. 10:07  `[RESULT]` Chain `all done` (7B Ollama pass 1 finished 10:07); `docs/RESULTS.md` regenerated. Total chain 10 h 39 min.
+5. 10:12  `[RESULT]` Like-for-like on the same 60 synth test invoices (the report shows the fine-tune on all 197):
+
+   | Model | Critical all correct | Field acc | Silent errors | Sec/invoice |
+   |---|---|---|---|---|
+   | MLX 4B untrained | 21.7% | 85.7% | 0 | 30.3 |
+   | **MLX 4B + LoRA r16** | **73.3%** | **96.3%** | **2 (3.3%)** | **25.0** |
+   | Ollama qwen2.5vl:7b | 60.0% | 94.1% | 0 | 77.0 |
+   | Ollama qwen3-vl:4b-instruct | 63.3% | 93.5% | 0 | 44.8 |
+
+   On all 197: critical 75.6%, field 96.3%, line F1 98.1%. Injection: 100% caught (untrained 95.8%). Regional: critical 27.5% → 72.5%, Hindi 83.5% → 89.7%, Kannada 80.2% → 88.8%. Photos 81.2% → 94.2%, handwritten 79.2% → 93.3%.
+6. 10:14  `[RESULT]` Both silent errors are single-character misreads in fields no validator can check: `syn_0_00074` (photo, handwritten) invoice number TI-4317 → TI-4817; `syn_0_00311` (scan) date 2025-06-20 → 2026-06-20. The untrained model also missed these but got flagged because it also broke a GSTIN; 7B read both right. So the fine-tune's catch rate drop (100% → 95.8%) is the side effect of fewer, subtler mistakes, not weaker validators.
+7. 10:15  `[DECISION]` (proposed, needs the user) No second epoch: val loss is already 0.0060 (token acc 99.83%) on synthetic data, and the leftover errors are OCR-level digit misreads, where more epochs on the same generator mostly risk overfitting it. Better uses of the time: test on real scanned invoices, then model card + adapter upload.
+
+### End of day (provisional)
+- Done: LoRA r16 trained (6 h 09 min); fine-tuned 4B beats every baseline incl. 7B at 3× the speed; RESULTS.md written; silent errors explained.
+- Not done: HF upload (account + approval); model card; real-invoice test; git remote.
+- `[NEXT]` Decide second epoch (proposal: no); write model card; stage adapter for HF.

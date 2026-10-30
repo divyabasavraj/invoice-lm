@@ -1,0 +1,6 @@
+{
+ "text": "{\n  \"invoice_number\": \"202526/01942\",\n  \"invoice_date\": \"18/07/2025\",\n  \"supplier\": {\n    \"name\": \"\u0938\u0939\u093e\u092f\u093e\u0908 \u0938\u094d\u091f\u094b\u0930\u094d\u0938\",\n    \"gstin\": \"07LMMCA523801Z5\",\n    \"address\": \"387, Nehru Street, New Delhi - 110024\",\n    \"state\": \"Delhi\",\n    \"state_code\": \"07\"\n  },\n  \"buyer\": {\n    \"name\": \"\u0915\u0943\u0937\u094d\u0923 \u090f\u0902\u091c\u0947\u0932\u0940 LLP\",\n    \"gstin\": \"07ACKCC1404H4ZT\",\n    \"address\": \"350, MG Road, New Delhi - 110084\",\n    \"state\": \"Delhi\",\n    \"state_code\": \"07\"\n  },\n  \"place_of_supply\": \"Delhi (07)\",\n  \"supply_type\": \"intra_state\",\n  \"reverse_charge\": false,\n  \"line_items\": [\n    {\n      \"description\": \"Laptop 14 inch i5\",\n      \"hsn_sac\": \"8471\",\n      \"quantity\": 1,\n      \"unit\": \"PCS\",\n      \"rate\": 53113,\n      \"taxable_value\": 53113,\n      \"gst_rate\": 18,\n      \"cgst_amount\": 4780,\n      \"sgst_amount\": 4780,\n      \"igst_amount\": 0,\n      \"total\": 62673\n    }\n  ],\n  \"totals\": {\n    \"taxable_value\": 53113,\n    \"cgst\": 4780,\n    \"sgst\": 4780,\n    \"igst\": 0,\n    \"round_off\": -0.34,\n    \"grand_total\": 62673\n  }\n}",
+ "seconds": 17.73,
+ "prompt_tokens": 1729,
+ "output_tokens": 445
+}

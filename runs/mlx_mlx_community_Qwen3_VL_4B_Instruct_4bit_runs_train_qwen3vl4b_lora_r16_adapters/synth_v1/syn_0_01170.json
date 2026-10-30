@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/01093\",\"invoice_date\":\"2025-10-21\",\"supplier\":{\"name\":\"Ganga Suppliers\",\"gstin\":\"29EITCV8807K1ZP\",\"address\":\"391, APMC Yard, Mysuru - 565016\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Bharat Corporation\",\"gstin\":\"29MKBFZ7172F9ZO\",\"address\":\"399, Industrial Area Phase 2, Belagavi - 575004\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Toor Dal\",\"hsn_sac\":\"0713\",\"quantity\":10.0,\"unit\":\"KG\",\"rate\":172.06,\"taxable_value\":1720.6,\"gst_rate\":0.0,\"cgst_amount\":0.0,\"sgst_amount\":0.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":1720.6,\"cgst\":0.0,\"sgst\":0.0,\"igst\":0.0,\"round_off\":0.4,\"grand_total\":1721.0}}",
+ "seconds": 14.77,
+ "prompt_tokens": 776,
+ "output_tokens": 310
+}

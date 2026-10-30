@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"TI-3337\",\"invoice_date\":\"2026-09-12\",\"supplier\":{\"name\":\"Kaveri Industries Pvt Ltd\",\"gstin\":\"19NOPCG8454J1ZN\",\"address\":\"99, Market Yard, Kolkata - 742034\",\"state\":\"West Bengal\",\"state_code\":\"19\"},\"buyer\":{\"name\":\"Balaji Marketing LLP\",\"gstin\":\"19IFICJ4478K9Z5\",\"address\":\"182, Station Road, Howrah - 741091\",\"state\":\"West Bengal\",\"state_code\":\"19\"},\"place_of_supply\":\"West Bengal (19)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Copper Wire 1.5 sq mm 90m\",\"hsn_sac\":\"8544\",\"quantity\":10.0,\"unit\":\"COIL\",\"rate\":1805.0,\"taxable_value\":18050.0,\"gst_rate\":18.0,\"cgst_amount\":1624.5,\"sgst_amount\":1624.5,\"igst_amount\":null,\"total\":null},{\"description\":\"Toor Dal\",\"hsn_sac\":\"0713\",\"quantity\":12.0,\"unit\":\"KG\",\"rate\":138.0,\"taxable_value\":1656.0,\"gst_rate\":0.0,\"cgst_amount\":0.0,\"sgst_amount\":0.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":19706.0,\"cgst\":1624.5,\"sgst\":1624.5,\"igst\":0.0,\"round_off\":0.0,\"grand_total\":22955.0}}",
+ "seconds": 18.53,
+ "prompt_tokens": 808,
+ "output_tokens": 400
+}

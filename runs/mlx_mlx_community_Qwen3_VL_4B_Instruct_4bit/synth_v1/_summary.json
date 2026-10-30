@@ -1,0 +1,109 @@
+{
+  "overall": {
+    "n": 60,
+    "parse_rate": 0.9833333333333333,
+    "field_acc": 0.8569940476190475,
+    "critical_all_correct": 0.21666666666666667,
+    "line_f1": 0.8986083499005965,
+    "per_field": {
+      "invoice_number": 0.9166666666666666,
+      "invoice_date": 0.95,
+      "supply_type": 0.9666666666666667,
+      "place_of_supply": 0.8666666666666667,
+      "supplier.name": 0.9833333333333333,
+      "supplier.gstin": 0.36666666666666664,
+      "supplier.state_code": 0.9791666666666666,
+      "buyer.name": 0.95,
+      "buyer.gstin": 0.35,
+      "buyer.state_code": 0.9791666666666666,
+      "totals.taxable_value": 0.95,
+      "totals.cgst": 0.8166666666666667,
+      "totals.sgst": 0.9,
+      "totals.igst": 0.9166666666666666,
+      "totals.round_off": 0.9833333333333333,
+      "totals.grand_total": 0.9
+    },
+    "validator_catch_rate": 1.0,
+    "all_correct": 0.03333333333333333,
+    "false_flag_rate": 0.0,
+    "silent_error_rate": 0.0
+  },
+  "sec_per_invoice": 30.3,
+  "by_level": {
+    "clean": {
+      "n": 14,
+      "parse_rate": 1.0,
+      "field_acc": 0.914,
+      "critical_all_correct": 0.214,
+      "line_f1": 0.922,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.0,
+      "silent_error_rate": 0.0
+    },
+    "photo": {
+      "n": 28,
+      "parse_rate": 0.964,
+      "field_acc": 0.812,
+      "critical_all_correct": 0.214,
+      "line_f1": 0.844,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.071,
+      "false_flag_rate": 0.0,
+      "silent_error_rate": 0.0
+    },
+    "scan": {
+      "n": 18,
+      "parse_rate": 1.0,
+      "field_acc": 0.883,
+      "critical_all_correct": 0.222,
+      "line_f1": 0.955,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.0,
+      "silent_error_rate": 0.0
+    }
+  },
+  "by_layout": {
+    "classic": {
+      "n": 18,
+      "parse_rate": 1.0,
+      "field_acc": 0.892,
+      "critical_all_correct": 0.111,
+      "line_f1": 0.972,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.0,
+      "silent_error_rate": 0.0
+    },
+    "handwritten": {
+      "n": 12,
+      "parse_rate": 0.917,
+      "field_acc": 0.792,
+      "critical_all_correct": 0.167,
+      "line_f1": 0.925,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.083,
+      "false_flag_rate": 0.0,
+      "silent_error_rate": 0.0
+    },
+    "minimal": {
+      "n": 18,
+      "parse_rate": 1.0,
+      "field_acc": 0.889,
+      "critical_all_correct": 0.167,
+      "line_f1": 0.952,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.056,
+      "false_flag_rate": 0.0,
+      "silent_error_rate": 0.0
+    },
+    "thermal": {
+      "n": 12,
+      "parse_rate": 1.0,
+      "field_acc": 0.821,
+      "critical_all_correct": 0.5,
+      "line_f1": 0.686,
+      "validator_catch_rate": 1.0,
+      "all_correct": 0.0,
+      "silent_error_rate": 0.0
+    }
+  }
+}

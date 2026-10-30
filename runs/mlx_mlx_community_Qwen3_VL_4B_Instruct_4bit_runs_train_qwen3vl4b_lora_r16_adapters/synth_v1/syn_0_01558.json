@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/00839\",\"invoice_date\":\"2025-07-11\",\"supplier\":{\"name\":\"Balaji Suppliers\",\"gstin\":\"09AUNER0264F1ZE\",\"address\":\"72, Gandhi Nagar, Kanpur - 245052\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Om Stores\",\"gstin\":\"09CJHFW2987I2ZV\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Uttar Pradesh (09)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Cotton Shirt\",\"hsn_sac\":\"6205\",\"quantity\":6.0,\"unit\":\"PCS\",\"rate\":604.55,\"taxable_value\":3627.3,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Leather Shoes\",\"hsn_sac\":\"6403\",\"quantity\":1.0,\"unit\":\"PAIR\",\"rate\":2458.0,\"taxable_value\":2458.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Refined Sunflower Oil 15L\",\"hsn_sac\":\"1512\",\"quantity\":10.0,\"unit\":\"TIN\",\"rate\":1999.0,\"taxable_value\":19990.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":26075.3,\"cgst\":811.65,\"sgst\":811.65,\"igst\":0.0,\"round_off\":0.4,\"grand_total\":27699.0}}",
+ "seconds": 18.51,
+ "prompt_tokens": 274,
+ "output_tokens": 444
+}

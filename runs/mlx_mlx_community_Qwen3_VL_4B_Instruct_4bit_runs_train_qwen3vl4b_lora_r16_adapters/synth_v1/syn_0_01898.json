@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"GST-978\",\"invoice_date\":\"2026-05-08\",\"supplier\":{\"name\":\"Shree Stores\",\"gstin\":\"27UPFFN0217X1Z9\",\"address\":\"387, Ring Road, Pune - 414014\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"buyer\":{\"name\":\"Ganga Distributors\",\"gstin\":null,\"address\":\"386, Nehru Street, Nashik - 434004\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"place_of_supply\":\"Maharashtra (27)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Hand Sanitizer 500ml\",\"hsn_sac\":\"3808\",\"quantity\":3.0,\"unit\":\"BTL\",\"rate\":164.0,\"taxable_value\":492.0,\"gst_rate\":18.0,\"cgst_amount\":44.28,\"sgst_amount\":44.28,\"igst_amount\":null,\"total\":null},{\"description\":\"Cement OPC 53 Grade 50kg\",\"hsn_sac\":\"2523\",\"quantity\":100.0,\"unit\":\"BAG\",\"rate\":363.0,\"taxable_value\":36300.0,\"gst_rate\":18.0,\"cgst_amount\":3267.0,\"sgst_amount\":3267.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":36792.0,\"cgst\":3311.28,\"sgst\":3311.28,\"igst\":0.0,\"round_off\":0.44,\"grand_total\":43415.0}}",
+ "seconds": 17.09,
+ "prompt_tokens": 776,
+ "output_tokens": 402
+}

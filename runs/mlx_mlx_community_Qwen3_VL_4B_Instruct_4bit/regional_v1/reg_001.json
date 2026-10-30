@@ -1,0 +1,6 @@
+{
+ "text": "{\n  \"invoice_number\": \"ST-2257\",\n  \"invoice_date\": \"29-11-2025\",\n  \"supplier\": {\n    \"name\": \"2. Station Road, Bengaluru - 585066\",\n    \"gstin\": \"29BQR CN0123U2ZO\",\n    \"address\": \"2. Station Road, Bengaluru - 585066\",\n    \"state\": \"Karnataka\",\n    \"state_code\": \"29\"\n  },\n  \"buyer\": {\n    \"name\": \"Vinayaka Distributors Pvt Ltd\",\n    \"gstin\": \"32BGCZC2275H9ZS\",\n    \"address\": \"253, Nehru Street, Thiruvananthapuram - 682014\",\n    \"state\": \"Kerala\",\n    \"state_code\": \"32\"\n  },\n  \"place_of_supply\": \"Kerala (32)\",\n  \"supply_type\": \"inter_state\",\n  \"reverse_charge\": false,\n  \"line_items\": [\n    {\n      \"description\": \"Belted\",\n      \"hsn_sac\": \"6403\",\n      \"quantity\": 25,\n      \"unit\": \"PAIR\",\n      \"rate\": 2621.71,\n      \"taxable_value\": 65542.75,\n      \"gst_rate\": 18,\n      \"cgst_amount\": null,\n      \"sgst_amount\": null,\n      \"igst_amount\": 11797.69,\n      \"total\": 77340.44\n    }\n  ],\n  \"totals\": {\n    \"taxable_value\": 65542.75,\n    \"cgst\": null,\n    \"sgst\": null,\n    \"igst\": 11797.69,\n    \"round_off\": -0.44,\n    \"grand_total\": 77340.44\n  }\n}",
+ "seconds": 18.22,
+ "prompt_tokens": 1761,
+ "output_tokens": 446
+}

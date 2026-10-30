@@ -1,0 +1,6 @@
+{
+ "text": "{\n  \"invoice_number\": \"TI-2408\",\n  \"invoice_date\": \"2026-05-17\",\n  \"supplier\": {\n    \"name\": \"VINAYAKA DISTRIBUTORS PRIVATE LIMITED\",\n    \"gstin\": \"27NPXCH3601W1ZA\",\n    \"address\": \"43, MG Road, Nashik - 424043\",\n    \"state\": \"Maharashtra\",\n    \"state_code\": \"27\"\n  },\n  \"buyer\": {\n    \"name\": \"Sri Enterprises\",\n    \"gstin\": \"19TWRFL4504T4ZI\",\n    \"address\": \"56, APMC Yard, Kolkata - 709040\",\n    \"state\": \"West Bengal\",\n    \"state_code\": \"19\"\n  },\n  \"place_of_supply\": \"West Bengal (19)\",\n  \"supply_type\": \"inter_state\",\n  \"reverse_charge\": false,\n  \"line_items\": [\n    {\n      \"description\": \"Copper Wire 1.5 sq mm 90m\",\n      \"hsn_sac\": \"8544\",\n      \"quantity\": 50,\n      \"unit\": \"COIL\",\n      \"rate\": 1805.00,\n      \"taxable_value\": 90250.00,\n      \"gst_rate\": 18,\n      \"cgst_amount\": 0.00,\n      \"sgst_amount\": 0.00,\n      \"igst_amount\": 16245.00,\n      \"total\": 106495.00\n    }\n  ],\n  \"totals\": {\n    \"taxable_value\": 90250.00,\n    \"cgst\": 0.00,\n    \"sgst\": 0.00,\n    \"igst\": 16245.00,\n    \"round_off\": 0.00,\n    \"grand_total\": 106495.00\n  }\n}",
+ "seconds": 53.54,
+ "prompt_tokens": 3071,
+ "output_tokens": 457
+}

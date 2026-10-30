@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-2555\",\"invoice_date\":\"2025-05-08\",\"supplier\":{\"name\":\"Karnataka State Government\",\"gstin\":\"29JUFFK7187S1ZS\",\"address\":\"402, MG Road, Hubballi - 568087\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Nehru Street, Belagavi - 584023\",\"gstin\":\"29AVPCD3651D1ZC\",\"address\":\"446, Nehru Street, Belagavi - 584023\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Antibiotic 1200mm\",\"hsn_sac\":\"8414\",\"quantity\":100.0,\"unit\":\"PCS\",\"rate\":2278.0,\"taxable_value\":227800.0,\"gst_rate\":18.0,\"cgst_amount\":20502.0,\"sgst_amount\":20502.0,\"igst_amount\":null,\"total\":null},{\"description\":\"Paracetamol 500mg Strip\",\"hsn_sac\":\"3004\",\"quantity\":25.0,\"unit\":\"STRIP\",\"rate\":18.0,\"taxable_value\":450.0,\"gst_rate\":12.0,\"cgst_amount\":27.0,\"sgst_amount\":27.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":228250.0,\"cgst\":20529.0,\"sgst\":20529.0,\"igst\":0.0,\"round_off\":0.0,\"grand_total\":269308.0}}",
+ "seconds": 19.45,
+ "prompt_tokens": 808,
+ "output_tokens": 435
+}

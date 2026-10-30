@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/1330\",\"invoice_date\":\"2026-02-12\",\"supplier\":{\"name\":\"Niru Kavitha Enterprises\",\"gstin\":\"29JILPN1511B2ZC\",\"address\":\"41, Market Yard, Mangaluru - 571084\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Lakshmi Marketing\",\"gstin\":\"29MVQFB7007G2ZQ\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Bamboo (50 pcs)\",\"hsn_sac\":\"9608\",\"quantity\":50.0,\"unit\":\"BOX\",\"rate\":300.0,\"taxable_value\":15000.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"PVC Pipe 4 inch 6m\",\"hsn_sac\":\"3917\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":988.0,\"taxable_value\":988.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":15988.0,\"cgst\":1438.92,\"sgst\":1438.92,\"igst\":0.0,\"round_off\":0.16,\"grand_total\":18866.0}}",
+ "seconds": 16.2,
+ "prompt_tokens": 496,
+ "output_tokens": 381
+}

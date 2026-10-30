@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-4951\",\"invoice_date\":\"2026-03-05\",\"supplier\":{\"name\":\"Krishna Enterprises\",\"gstin\":\"07FBTFP2703A1ZB\",\"address\":\"204, Industrial Area Phase 2, New Delhi - 110070\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Shree Traders\",\"gstin\":\"07ECGPV8274X2ZY\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Delhi (07)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Freight Charges (GTA)\",\"hsn_sac\":\"996511\",\"quantity\":3.0,\"unit\":\"TRIP\",\"rate\":15903.65,\"taxable_value\":47710.95,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":47710.95,\"cgst\":1192.77,\"sgst\":1192.77,\"igst\":0.0,\"round_off\":-0.49,\"grand_total\":50096.0}}",
+ "seconds": 13.27,
+ "prompt_tokens": 458,
+ "output_tokens": 296
+}

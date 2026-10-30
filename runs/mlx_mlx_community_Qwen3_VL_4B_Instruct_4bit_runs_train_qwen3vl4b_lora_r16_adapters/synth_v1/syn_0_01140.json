@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-2060\",\"invoice_date\":\"2025-11-20\",\"supplier\":{\"name\":\"Sahyadri Industries\",\"gstin\":\"33PLZFP9514B3ZW\",\"address\":\"45, APMC Yard, Chennai - 628093\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"buyer\":{\"name\":\"Ganga Stores Pvt Ltd\",\"gstin\":\"07AWGCZ2598L3Z8\",\"address\":\"426, Main Bazaar, New Delhi - 110007\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"place_of_supply\":\"Delhi (07)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Cotton Shirt\",\"hsn_sac\":\"6205\",\"quantity\":5.0,\"unit\":\"PCS\",\"rate\":925.81,\"taxable_value\":4629.05,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":231.45,\"total\":null},{\"description\":\"Wireless Mouse\",\"hsn_sac\":\"8471\",\"quantity\":3.0,\"unit\":\"PCS\",\"rate\":390.36,\"taxable_value\":1171.08,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":210.79,\"total\":null}],\"totals\":{\"taxable_value\":5800.13,\"cgst\":0.0,\"sgst\":0.0,\"igst\":442.24,\"round_off\":-0.37,\"grand_total\":6242.0}}",
+ "seconds": 18.14,
+ "prompt_tokens": 776,
+ "output_tokens": 387
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/3977\",\"invoice_date\":\"2025-04-28\",\"supplier\":{\"name\":\"Balaji Distributors\",\"gstin\":\"08HEQPB5571J3ZW\",\"address\":\"311, Main Bazaar, Jaipur - 306001\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"buyer\":{\"name\":\"Kaveri Marketing Pvt Ltd\",\"gstin\":\"08TBICY8445L3ZV\",\"address\":\"275, Main Bazaar, Udaipur - 335069\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Freight Charges (GTA)\",\"hsn_sac\":\"996511\",\"quantity\":3.0,\"unit\":\"TRIP\",\"rate\":7829.98,\"taxable_value\":23489.94,\"gst_rate\":5.0,\"cgst_amount\":587.25,\"sgst_amount\":587.25,\"igst_amount\":null,\"total\":null},{\"description\":\"Hand Sanitizer 500ml\",\"hsn_sac\":\"3808\",\"quantity\":2.0,\"unit\":\"BTL\",\"rate\":241.0,\"taxable_value\":482.0,\"gst_rate\":18.0,\"cgst_amount\":43.38,\"sgst_amount\":43.38,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":23971.94,\"cgst\":630.63,\"sgst\":630.63,\"igst\":0.0,\"round_off\":-0.2,\"grand_total\":25233.0}}",
+ "seconds": 19.29,
+ "prompt_tokens": 776,
+ "output_tokens": 420
+}

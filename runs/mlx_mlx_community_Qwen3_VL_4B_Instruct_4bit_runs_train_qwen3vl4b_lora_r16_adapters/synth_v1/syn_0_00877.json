@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/26-27/4902\",\"invoice_date\":\"2026-06-15\",\"supplier\":{\"name\":\"Navkar Stores Pvt Ltd\",\"gstin\":\"08KWCXB8890N2ZT\",\"address\":\"404, Gandhi Nagar, Jaipur - 307004\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"buyer\":{\"name\":\"Sri Industries\",\"gstin\":\"29XAMPQ5928S3ZQ\",\"address\":\"276, MG Road, Hubballi - 565015\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Wireless Mouse\",\"hsn_sac\":\"8471\",\"quantity\":50.0,\"unit\":\"PCS\",\"rate\":679.0,\"taxable_value\":33950.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":6111.0,\"total\":null}],\"totals\":{\"taxable_value\":33950.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":6111.0,\"round_off\":0.0,\"grand_total\":40061.0}}",
+ "seconds": 14.97,
+ "prompt_tokens": 776,
+ "output_tokens": 313
+}

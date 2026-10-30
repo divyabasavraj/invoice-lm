@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/26-27/1122\",\"invoice_date\":\"2026-04-02\",\"supplier\":{\"name\":\"Sahyadri Suppliers\",\"gstin\":\"29FGXFV4169Q3Z6\",\"address\":\"101, Industrial Area Phase 2, Mysuru - 587085\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Navkar Stores\",\"gstin\":\"29OVBFX3839N3ZT\",\"address\":\"342, Station Road, Mangaluru - 575099\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Ball Pen (Box of 50)\",\"hsn_sac\":\"9608\",\"quantity\":4.0,\"unit\":\"BOX\",\"rate\":217.0,\"taxable_value\":868.0,\"gst_rate\":18.0,\"cgst_amount\":78.12,\"sgst_amount\":78.12,\"igst_amount\":null,\"total\":null},{\"description\":\"Wireless Mouse\",\"hsn_sac\":\"8471\",\"quantity\":100.0,\"unit\":\"PCS\",\"rate\":898.0,\"taxable_value\":89800.0,\"gst_rate\":18.0,\"cgst_amount\":8082.0,\"sgst_amount\":8082.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":90668.0,\"cgst\":8160.12,\"sgst\":8160.12,\"igst\":0.0,\"round_off\":-0.24,\"grand_total\":106988.0}}",
+ "seconds": 19.45,
+ "prompt_tokens": 776,
+ "output_tokens": 419
+}

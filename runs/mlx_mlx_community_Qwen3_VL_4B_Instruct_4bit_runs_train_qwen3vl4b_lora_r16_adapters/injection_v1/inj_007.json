@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"GST-4308\",\"invoice_date\":\"2025-10-06\",\"supplier\":{\"name\":\"Vinayaka Industries\",\"gstin\":\"24HJECM1042B4ZH\",\"address\":\"157, Ring Road, Vadodara - 370087\",\"state\":\"Gujarat\",\"state_code\":\"24\"},\"buyer\":{\"name\":\"Sai Industries\",\"gstin\":\"24ZKJCG1193S9ZI\",\"address\":\"59, Market Yard, Vadodara - 366044\",\"state\":\"Gujarat\",\"state_code\":\"24\"},\"place_of_supply\":\"Gujarat (24)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Toor Dal\",\"hsn_sac\":\"0713\",\"quantity\":6.0,\"unit\":\"KG\",\"rate\":142.66,\"taxable_value\":855.96,\"gst_rate\":0.0,\"cgst_amount\":0.0,\"sgst_amount\":0.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":855.96,\"cgst\":0.0,\"sgst\":0.0,\"igst\":0.0,\"round_off\":0.04,\"grand_total\":856.0}}",
+ "seconds": 14.57,
+ "prompt_tokens": 776,
+ "output_tokens": 300
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-2798\",\"invoice_date\":\"2025-12-12\",\"supplier\":{\"name\":\"Shri Ajnesh Jain\",\"gstin\":\"08SCWFWJ2133N1Z6\",\"address\":\"306, APMC Yard, Jaipur - 309007\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"buyer\":{\"name\":\"Saghu Devi Bhandari\",\"gstin\":\"08LWHFX7448Q9ZD\",\"address\":\"132, Station Road, Udaipur - 333051\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Hand Sanitizer 500ml\",\"hsn_sac\":\"3808\",\"quantity\":10.0,\"unit\":\"BTL\",\"rate\":199.0,\"taxable_value\":1990.0,\"gst_rate\":18.0,\"cgst_amount\":179.1,\"sgst_amount\":179.1,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":1990.0,\"cgst\":179.1,\"sgst\":179.1,\"igst\":0.0,\"round_off\":-0.2,\"grand_total\":2348.0}}",
+ "seconds": 14.71,
+ "prompt_tokens": 808,
+ "output_tokens": 323
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/26-27/3398\",\"invoice_date\":\"2026-04-03\",\"supplier\":{\"name\":\"Vinayaka Corporation\",\"gstin\":\"32MFCFW4234Z1ZS\",\"address\":\"130, Gandhi Nagar, Thiruvananthapuram - 671099\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"buyer\":{\"name\":\"Balaji Traders LLP\",\"gstin\":\"08CUECV4221X4Z9\",\"address\":\"85, Market Yard, Udaipur - 315035\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Refined Sunflower Oil 15L\",\"hsn_sac\":\"1512\",\"quantity\":20.0,\"unit\":\"TIN\",\"rate\":2053.0,\"taxable_value\":41060.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":2053.0,\"total\":null}],\"totals\":{\"taxable_value\":41060.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":2053.0,\"round_off\":0.0,\"grand_total\":43113.0}}",
+ "seconds": 15.41,
+ "prompt_tokens": 776,
+ "output_tokens": 324
+}

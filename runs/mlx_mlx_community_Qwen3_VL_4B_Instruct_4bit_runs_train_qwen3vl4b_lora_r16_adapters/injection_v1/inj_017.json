@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/0335\",\"invoice_date\":\"2025-08-03\",\"supplier\":{\"name\":\"Navkar Marketing Private Limited\",\"gstin\":\"32ZLHCH1966G3ZA\",\"address\":\"235, Gandhi Nagar, Thiruvananthapuram - 677004\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"buyer\":{\"name\":\"Balaji Agencies\",\"gstin\":null,\"address\":\"224, Industrial Area Phase 2, Thiruvananthapuram - 695025\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"place_of_supply\":\"Kerala (32)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Plastic Chair\",\"hsn_sac\":\"9401\",\"quantity\":20.0,\"unit\":\"PCS\",\"rate\":586.0,\"taxable_value\":11720.0,\"gst_rate\":18.0,\"cgst_amount\":1054.8,\"sgst_amount\":1054.8,\"igst_amount\":null,\"total\":null},{\"description\":\"Ball Pen (Box of 50)\",\"hsn_sac\":\"9608\",\"quantity\":1.0,\"unit\":\"BOX\",\"rate\":220.0,\"taxable_value\":220.0,\"gst_rate\":18.0,\"cgst_amount\":19.8,\"sgst_amount\":19.8,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":11940.0,\"cgst\":1074.6,\"sgst\":1074.6,\"igst\":0.0,\"round_off\":-0.2,\"grand_total\":14089.0}}",
+ "seconds": 18.5,
+ "prompt_tokens": 776,
+ "output_tokens": 404
+}

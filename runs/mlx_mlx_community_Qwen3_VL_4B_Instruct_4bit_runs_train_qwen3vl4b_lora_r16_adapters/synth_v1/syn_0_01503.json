@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"1711\",\"invoice_date\":\"2025-09-16\",\"supplier\":{\"name\":\"Kaveri Traders LLP\",\"gstin\":\"19XPPCO6710P9ZW\",\"address\":\"137, Main Bazaar, Howrah - 707062\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Ganga Enterprises\",\"gstin\":null,\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Telangana (36)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Plastic Chair\",\"hsn_sac\":\"9401\",\"quantity\":2.0,\"unit\":\"PCS\",\"rate\":573.0,\"taxable_value\":1146.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Ceiling Fan 1200mm\",\"hsn_sac\":\"8414\",\"quantity\":25.0,\"unit\":\"PCS\",\"rate\":2852.0,\"taxable_value\":71300.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Split AC 1.5 Ton\",\"hsn_sac\":\"8415\",\"quantity\":2.0,\"unit\":\"PCS\",\"rate\":42629.0,\"taxable_value\":85258.0,\"gst_rate\":28.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":157704.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":36912.52,\"round_off\":0.48,\"grand_total\":194617.0}}",
+ "seconds": 18.92,
+ "prompt_tokens": 515,
+ "output_tokens": 435
+}

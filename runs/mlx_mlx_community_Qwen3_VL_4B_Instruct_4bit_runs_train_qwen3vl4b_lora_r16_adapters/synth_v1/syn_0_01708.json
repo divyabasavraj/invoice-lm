@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/03523\",\"invoice_date\":\"2025-08-25\",\"supplier\":{\"name\":\"Kaveri Industries\",\"gstin\":\"09KWWFE320F1ZB\",\"address\":\"360, APMC Yard, Kanpur - 285022\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"buyer\":{\"name\":\"Shree Solutions Pvt Ltd\",\"gstin\":\"19WIUCD7712O1ZR\",\"address\":\"130, Industrial Area Phase 2, Howrah - 703040\",\"state\":\"West Bengal\",\"state_code\":\"19\"},\"place_of_supply\":\"West Bengal (19)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Consulting Services\",\"hsn_sac\":\"998311\",\"quantity\":10.0,\"unit\":\"HRS\",\"rate\":2801.2,\"taxable_value\":28012.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":5042.16,\"total\":null}],\"totals\":{\"taxable_value\":28012.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":5042.16,\"round_off\":-0.16,\"grand_total\":33054.0}}",
+ "seconds": 15.33,
+ "prompt_tokens": 808,
+ "output_tokens": 321
+}

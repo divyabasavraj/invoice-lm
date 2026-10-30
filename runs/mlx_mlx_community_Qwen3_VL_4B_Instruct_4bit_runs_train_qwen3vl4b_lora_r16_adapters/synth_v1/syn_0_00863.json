@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/26-27/2609\",\"invoice_date\":\"2026-07-18\",\"supplier\":{\"name\":\"Navkar & Sons\",\"gstin\":\"27WAOPP1192U1Z0\",\"address\":\"64, Main Bazaar, Mumbai - 429076\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"buyer\":{\"name\":\"Annapurna Distributors\",\"gstin\":\"08PSDPE9475C4Z8\",\"address\":\"122, Gandhi Nagar, Udaipur - 316044\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Cement OPC 53 Grade 50kg\",\"hsn_sac\":\"2523\",\"quantity\":25.0,\"unit\":\"BAG\",\"rate\":41.021,\"taxable_value\":1025.525,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":1845.94,\"total\":null},{\"description\":\"TMT Steel Bar 12mm\",\"hsn_sac\":\"7214\",\"quantity\":12.0,\"unit\":\"KG\",\"rate\":62.0,\"taxable_value\":744.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":133.92,\"total\":null}],\"totals\":{\"taxable_value\":10999.25,\"cgst\":0.0,\"sgst\":0.0,\"igst\":1979.86,\"round_off\":-0.11,\"grand_total\":12979.0}}",
+ "seconds": 19.29,
+ "prompt_tokens": 808,
+ "output_tokens": 413
+}

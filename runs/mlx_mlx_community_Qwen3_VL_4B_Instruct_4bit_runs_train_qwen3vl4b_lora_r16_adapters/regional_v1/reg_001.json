@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-2257\",\"invoice_date\":\"2025-11-29\",\"supplier\":{\"name\":\"2. Station Road, Bengaluru - 585066\",\"gstin\":\"29BORCN0123U2ZO\",\"address\":\"2. Station Road, Bengaluru - 585066\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Vinayaka Distributors Pvt Ltd\",\"gstin\":\"32BGZCC2275H9ZS\",\"address\":\"253, Nehru Street, Thiruvananthapuram - 682014\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"place_of_supply\":\"Kerala (32)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Belted Bag\",\"hsn_sac\":\"6403\",\"quantity\":25.0,\"unit\":\"PAIR\",\"rate\":2621.71,\"taxable_value\":65542.75,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":11797.69,\"total\":null}],\"totals\":{\"taxable_value\":65542.75,\"cgst\":0.0,\"sgst\":0.0,\"igst\":11797.69,\"round_off\":-0.44,\"grand_total\":77240.0}}",
+ "seconds": 15.46,
+ "prompt_tokens": 808,
+ "output_tokens": 330
+}

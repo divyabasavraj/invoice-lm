@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"1203\",\"invoice_date\":\"2026-05-29\",\"supplier\":{\"name\":\"Balaji Industries\",\"gstin\":\"24AADPM5070O1ZH\",\"address\":\"207, Market Yard, Ahmedabad - 390027\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Lakshmi & Sons\",\"gstin\":\"24JWHT6776D1Z1\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Gujarat (24)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Cement OPC 53 Grade 50kg\",\"hsn_sac\":\"2523\",\"quantity\":6.0,\"unit\":\"BAG\",\"rate\":370.0,\"taxable_value\":2220.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Housekeeping Services\",\"hsn_sac\":\"998533\",\"quantity\":1.0,\"unit\":\"MONTH\",\"rate\":31666.0,\"taxable_value\":31666.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Toor Dal\",\"hsn_sac\":\"0713\",\"quantity\":3.0,\"unit\":\"KG\",\"rate\":177.51,\"taxable_value\":532.53,\"gst_rate\":0.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":34418.53,\"cgst\":3049.74,\"sgst\":3049.74,\"igst\":0.0,\"round_off\":-0.01,\"grand_total\":40518.0}}",
+ "seconds": 18.75,
+ "prompt_tokens": 306,
+ "output_tokens": 446
+}

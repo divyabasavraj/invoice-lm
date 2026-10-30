@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/4248\",\"invoice_date\":\"2025-11-18\",\"supplier\":{\"name\":\"Shree Stores\",\"gstin\":\"33HFSCH1332O4ZQ\",\"address\":\"271, Nehru Street, Madurai - 602014\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"buyer\":{\"name\":\"Ganesh Corporation Pvt Ltd\",\"gstin\":\"33GJXCE1786J4Z8\",\"address\":\"443, Market Yard, Coimbatore - 631084\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"place_of_supply\":\"Tamil Nadu (33)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Laptop 14 inch i5\",\"hsn_sac\":\"8471\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":61706.31,\"taxable_value\":61706.31,\"gst_rate\":18.0,\"cgst_amount\":5553.57,\"sgst_amount\":5553.57,\"igst_amount\":null,\"total\":null},{\"description\":\"Leather Shoes\",\"hsn_sac\":\"6403\",\"quantity\":2.0,\"unit\":\"PAIR\",\"rate\":2380.0,\"taxable_value\":4760.0,\"gst_rate\":5.0,\"cgst_amount\":119.0,\"sgst_amount\":119.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":66466.31,\"cgst\":5672.57,\"sgst\":5672.57,\"igst\":0.0,\"round_off\":-0.45,\"grand_total\":77811.0}}",
+ "seconds": 19.47,
+ "prompt_tokens": 776,
+ "output_tokens": 423
+}

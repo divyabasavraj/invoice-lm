@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"GST-2612\",\"invoice_date\":\"2025-08-18\",\"supplier\":{\"name\":\"411, Main Bazaar, Bengaluru - 570094\",\"gstin\":\"29KQVCI4990J1ZC\",\"address\":null,\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"137, Station Road, Belagavi - 590072\",\"gstin\":null,\"address\":null,\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"GTA\",\"hsn_sac\":\"996511\",\"quantity\":3.0,\"unit\":\"TRIP\",\"rate\":12890.0,\"taxable_value\":38670.0,\"gst_rate\":5.0,\"cgst_amount\":966.75,\"sgst_amount\":966.75,\"igst_amount\":null,\"total\":null},{\"description\":\"A4 Copier Paper 75 GSM\",\"hsn_sac\":\"4802\",\"quantity\":4.0,\"unit\":\"REAM\",\"rate\":258.0,\"taxable_value\":1032.0,\"gst_rate\":12.0,\"cgst_amount\":61.92,\"sgst_amount\":61.92,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":39702.0,\"cgst\":1028.67,\"sgst\":1028.67,\"igst\":0.0,\"round_off\":-0.34,\"grand_total\":41759.0}}",
+ "seconds": 17.43,
+ "prompt_tokens": 808,
+ "output_tokens": 394
+}

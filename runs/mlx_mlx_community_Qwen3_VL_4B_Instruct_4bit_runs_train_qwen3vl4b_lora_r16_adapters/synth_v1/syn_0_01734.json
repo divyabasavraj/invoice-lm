@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202627/00734\",\"invoice_date\":\"2026-04-19\",\"supplier\":{\"name\":\"Sai Distributors\",\"gstin\":\"36JQHPK5554G1ZG\",\"address\":\"305, Ring Road, Warangal - 507065\",\"state\":\"Telangana\",\"state_code\":\"36\"},\"buyer\":{\"name\":\"Ganesh Distributors\",\"gstin\":null,\"address\":\"87, Gandhi Nagar, Warangal - 504065\",\"state\":\"Telangana\",\"state_code\":\"36\"},\"place_of_supply\":\"Telangana (36)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Masala Tea 1kg\",\"hsn_sac\":\"0902\",\"quantity\":1.0,\"unit\":\"PKT\",\"rate\":678.0,\"taxable_value\":678.0,\"gst_rate\":5.0,\"cgst_amount\":16.95,\"sgst_amount\":16.95,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":678.0,\"cgst\":16.95,\"sgst\":16.95,\"igst\":0.0,\"round_off\":0.1,\"grand_total\":712.0}}",
+ "seconds": 14.73,
+ "prompt_tokens": 776,
+ "output_tokens": 304
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/26-27/1452\",\"invoice_date\":\"2026-07-14\",\"supplier\":{\"name\":\"Annapurna Corporation\",\"gstin\":\"33MFECN1731R4ZK\",\"address\":\"364, Ring Road, Madurai - 634042\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"buyer\":{\"name\":\"Balaji Enterprises\",\"gstin\":\"29FFXCQ5569X9ZT\",\"address\":\"13, Market Yard, Bengaluru - 570090\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Masala Tea 1kg\",\"hsn_sac\":\"0902\",\"quantity\":5.0,\"unit\":\"PKT\",\"rate\":374.0,\"taxable_value\":1870.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":93.5,\"total\":null}],\"totals\":{\"taxable_value\":1870.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":93.5,\"round_off\":0.5,\"grand_total\":1964.0}}",
+ "seconds": 13.39,
+ "prompt_tokens": 776,
+ "output_tokens": 306
+}

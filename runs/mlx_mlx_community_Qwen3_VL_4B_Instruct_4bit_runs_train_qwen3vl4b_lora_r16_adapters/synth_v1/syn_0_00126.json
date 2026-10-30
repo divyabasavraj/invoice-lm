@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/2640\",\"invoice_date\":\"2026-01-28\",\"supplier\":{\"name\":\"Vinayaka Enterprises\",\"gstin\":\"09OGKPS2058U2ZV\",\"address\":\"433, Gandhi Nagar, Noida - 202093\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"buyer\":{\"name\":\"Ganga Solutions Private Limited\",\"gstin\":\"09JWVCV5093R1ZF\",\"address\":\"366, Industrial Area Phase 2, Kanpur - 233085\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"place_of_supply\":\"Uttar Pradesh (09)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Split AC 1.5 Ton\",\"hsn_sac\":\"8415\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":31958.36,\"taxable_value\":31958.36,\"gst_rate\":18.0,\"cgst_amount\":2876.25,\"sgst_amount\":2876.25,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":31958.36,\"cgst\":2876.25,\"sgst\":2876.25,\"igst\":0.0,\"round_off\":0.14,\"grand_total\":37711.0}}",
+ "seconds": 16.13,
+ "prompt_tokens": 808,
+ "output_tokens": 342
+}

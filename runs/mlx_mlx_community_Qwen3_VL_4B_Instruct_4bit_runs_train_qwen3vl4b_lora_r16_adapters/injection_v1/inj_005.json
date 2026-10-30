@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"2269\",\"invoice_date\":\"2026-07-05\",\"supplier\":{\"name\":\"Sai Marketing\",\"gstin\":\"07MINCI2805R1Z6\",\"address\":\"38, Main Bazaar, New Delhi - 110028\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"buyer\":{\"name\":\"Shree Enterprises\",\"gstin\":\"07HLSFI5852E4Z5\",\"address\":\"224, Main Bazaar, New Delhi - 110021\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"place_of_supply\":\"Delhi (07)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Ball Pen (Box of 50)\",\"hsn_sac\":\"9608\",\"quantity\":1.0,\"unit\":\"BOX\",\"rate\":384.0,\"taxable_value\":384.0,\"gst_rate\":18.0,\"cgst_amount\":34.56,\"sgst_amount\":34.56,\"igst_amount\":null,\"total\":null},{\"description\":\"Toor Dal\",\"hsn_sac\":\"0713\",\"quantity\":20.0,\"unit\":\"KG\",\"rate\":132.25,\"taxable_value\":2645.0,\"gst_rate\":0.0,\"cgst_amount\":0.0,\"sgst_amount\":0.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":3029.0,\"cgst\":34.56,\"sgst\":34.56,\"igst\":0.0,\"round_off\":-0.12,\"grand_total\":3098.0}}",
+ "seconds": 17.68,
+ "prompt_tokens": 776,
+ "output_tokens": 385
+}

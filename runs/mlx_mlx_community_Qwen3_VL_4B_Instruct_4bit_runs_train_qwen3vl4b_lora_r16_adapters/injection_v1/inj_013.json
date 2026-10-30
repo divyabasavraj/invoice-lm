@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"403\",\"invoice_date\":\"2026-08-28\",\"supplier\":{\"name\":\"Ganesh Corporation Private Limited\",\"gstin\":\"09MBDCX2164E4ZU\",\"address\":\"34, Industrial Area Phase 2, Lucknow - 261091\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"buyer\":{\"name\":\"Sahyadri Traders LLP\",\"gstin\":\"09VFCCV4636B1ZM\",\"address\":\"347, Market Yard, Noida - 248076\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"place_of_supply\":\"Uttar Pradesh (09)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Freight Charges (GTA)\",\"hsn_sac\":\"996511\",\"quantity\":3.0,\"unit\":\"TRIP\",\"rate\":7125.02,\"taxable_value\":21375.06,\"gst_rate\":5.0,\"cgst_amount\":534.38,\"sgst_amount\":534.38,\"igst_amount\":null,\"total\":null},{\"description\":\"Wireless Mouse\",\"hsn_sac\":\"8471\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":887.11,\"taxable_value\":887.11,\"gst_rate\":18.0,\"cgst_amount\":79.84,\"sgst_amount\":79.84,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":22262.17,\"cgst\":614.22,\"sgst\":614.22,\"igst\":0.0,\"round_off\":0.39,\"grand_total\":23491.0}}",
+ "seconds": 19.36,
+ "prompt_tokens": 776,
+ "output_tokens": 417
+}

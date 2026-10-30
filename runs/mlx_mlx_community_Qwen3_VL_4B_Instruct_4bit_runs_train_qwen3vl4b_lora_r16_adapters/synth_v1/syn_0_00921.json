@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"3482\",\"invoice_date\":\"2026-08-26\",\"supplier\":{\"name\":\"Bharat Suppliers\",\"gstin\":\"33BBUFA2257Q2ZR\",\"address\":\"46, Gandhi Nagar, Chennai - 615024\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"buyer\":{\"name\":\"Ganesh Suppliers\",\"gstin\":\"33SDFFA5642I1ZZ\",\"address\":\"39, Industrial Area Phase 2, Coimbatore - 643055\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"place_of_supply\":\"Tamil Nadu (33)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"A4 Copier Paper 75 GSM\",\"hsn_sac\":\"4802\",\"quantity\":1.0,\"unit\":\"REAM\",\"rate\":320.0,\"taxable_value\":320.0,\"gst_rate\":18.0,\"cgst_amount\":28.8,\"sgst_amount\":28.8,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":320.0,\"cgst\":28.8,\"sgst\":28.8,\"igst\":0.0,\"round_off\":0.4,\"grand_total\":378.0}}",
+ "seconds": 14.56,
+ "prompt_tokens": 776,
+ "output_tokens": 304
+}

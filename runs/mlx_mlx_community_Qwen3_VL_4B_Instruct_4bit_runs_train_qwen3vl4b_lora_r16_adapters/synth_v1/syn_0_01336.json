@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"3754\",\"invoice_date\":\"2026-02-08\",\"supplier\":{\"name\":\"Navkar Agencies Private Limited\",\"gstin\":\"27KUXCW0146C2ZQ\",\"address\":\"332, Station Road, Mumbai - 422002\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Kaveri Distributors\",\"gstin\":null,\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Maharashtra (27)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Cement OPC 53 Grade 50kg\",\"hsn_sac\":\"2523\",\"quantity\":10.0,\"unit\":\"BAG\",\"rate\":370.66,\"taxable_value\":3706.6,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Cotton Shirt\",\"hsn_sac\":\"6205\",\"quantity\":25.0,\"unit\":\"PCS\",\"rate\":513.68,\"taxable_value\":12842.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":16548.6,\"cgst\":654.64,\"sgst\":654.64,\"igst\":0.0,\"round_off\":0.12,\"grand_total\":17858.0}}",
+ "seconds": 15.84,
+ "prompt_tokens": 477,
+ "output_tokens": 357
+}

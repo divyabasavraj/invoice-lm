@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/04234\",\"invoice_date\":\"2025-12-23\",\"supplier\":{\"name\":\"Ganga Suppliers\",\"gstin\":\"29STUCS5546P1ZJ\",\"address\":\"220, Nehru Street, Bengaluru - 579030\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Om & Sons\",\"gstin\":\"29BIKFY2313K4Z8\",\"address\":\"405, MG Road, Mangaluru - 582033\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"place_of_supply\":\"Karnataka (29)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Toor Dal\",\"hsn_sac\":\"0713\",\"quantity\":2.0,\"unit\":\"KG\",\"rate\":112.61,\"taxable_value\":225.22,\"gst_rate\":0.0,\"cgst_amount\":0.0,\"sgst_amount\":0.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":225.22,\"cgst\":0.0,\"sgst\":0.0,\"igst\":0.0,\"round_off\":-0.22,\"grand_total\":225.0}}",
+ "seconds": 14.7,
+ "prompt_tokens": 808,
+ "output_tokens": 305
+}

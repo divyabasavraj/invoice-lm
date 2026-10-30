@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"4852\",\"invoice_date\":\"2025-12-11\",\"supplier\":{\"name\":\"Sahyadri Suppliers Pvt Ltd\",\"gstin\":\"36MPBCK1910J1ZL\",\"address\":\"33, Market Yard, Hyderabad - 502002\",\"state\":\"Telangana\",\"state_code\":\"36\"},\"buyer\":{\"name\":\"Om Suppliers\",\"gstin\":\"36ZKLA5063F1ZF\",\"address\":\"211, Main Bazaar, Warangal - 504069\",\"state\":\"Telangana\",\"state_code\":\"36\"},\"place_of_supply\":\"Telangana (36)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Split AC 1.5 Ton\",\"hsn_sac\":\"8415\",\"quantity\":3.0,\"unit\":\"PCS\",\"rate\":44839.0,\"taxable_value\":134517.0,\"gst_rate\":18.0,\"cgst_amount\":12106.53,\"sgst_amount\":12106.53,\"igst_amount\":null,\"total\":null},{\"description\":\"Hand Sanitizer 500ml\",\"hsn_sac\":\"3808\",\"quantity\":20.0,\"unit\":\"BTL\",\"rate\":170.0,\"taxable_value\":3400.0,\"gst_rate\":18.0,\"cgst_amount\":306.0,\"sgst_amount\":306.0,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":137917.0,\"cgst\":12412.53,\"sgst\":12412.53,\"igst\":0.0,\"round_off\":-0.06,\"grand_total\":162742.0}}",
+ "seconds": 19.54,
+ "prompt_tokens": 776,
+ "output_tokens": 421
+}

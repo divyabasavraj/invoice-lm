@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"243\",\"invoice_date\":\"2026-06-24\",\"supplier\":{\"name\":\"Om Stores\",\"gstin\":\"33CIFPD6719T9ZI\",\"address\":\"444, Gandhi Nagar, Madurai - 612079\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"buyer\":{\"name\":\"Om Marketing\",\"gstin\":\"33LLAFE2257F4ZX\",\"address\":\"394, Industrial Area Phase 2, Chennai - 606006\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"place_of_supply\":\"Tamil Nadu (33)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Cement OPC 53 Grade 50kg\",\"hsn_sac\":\"2523\",\"quantity\":100.0,\"unit\":\"BAG\",\"rate\":391.0,\"taxable_value\":39100.0,\"gst_rate\":18.0,\"cgst_amount\":3519.0,\"sgst_amount\":3519.0,\"igst_amount\":null,\"total\":null},{\"description\":\"Cotton Shirt\",\"hsn_sac\":\"6205\",\"quantity\":100.0,\"unit\":\"PCS\",\"rate\":508.71,\"taxable_value\":50871.0,\"gst_rate\":5.0,\"cgst_amount\":1271.78,\"sgst_amount\":1271.78,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":89971.0,\"cgst\":4790.78,\"sgst\":4790.78,\"igst\":0.0,\"round_off\":0.44,\"grand_total\":99553.0}}",
+ "seconds": 17.73,
+ "prompt_tokens": 776,
+ "output_tokens": 411
+}

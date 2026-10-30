@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/01797\",\"invoice_date\":\"2025-05-09\",\"supplier\":{\"name\":\"Sahyadri Corporation\",\"gstin\":\"33TSDFZ6890D3ZK\",\"address\":\"262, Station Road, Chennai - 635060\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Ganesh Solutions\",\"gstin\":\"33XIIPN0713P2ZH\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Tamil Nadu (33)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"TMT Steel Bar 12mm\",\"hsn_sac\":\"7214\",\"quantity\":25.0,\"unit\":\"KG\",\"rate\":67.0,\"taxable_value\":1675.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Housekeeping Services\",\"hsn_sac\":\"998533\",\"quantity\":2.0,\"unit\":\"MONTH\",\"rate\":37372.0,\"taxable_value\":74744.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":76419.0,\"cgst\":6877.71,\"sgst\":6877.71,\"igst\":0.0,\"round_off\":-0.42,\"grand_total\":90174.0}}",
+ "seconds": 15.7,
+ "prompt_tokens": 278,
+ "output_tokens": 375
+}

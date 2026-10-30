@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"3098\",\"invoice_date\":\"2025-12-09\",\"supplier\":{\"name\":\"Bharat Stores\",\"gstin\":\"07LZGFF0209U2ZW\",\"address\":\"343, Ring Road, New Delhi - 110010\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"buyer\":{\"name\":\"Om Enterprises\",\"gstin\":\"19PBOFU1972T1ZG\",\"address\":\"350, Station Road, Howrah - 736085\",\"state\":\"West Bengal\",\"state_code\":\"19\"},\"place_of_supply\":\"West Bengal (19)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Consulting Services\",\"hsn_sac\":\"998311\",\"quantity\":1.0,\"unit\":\"HRS\",\"rate\":2265.02,\"taxable_value\":2265.02,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":407.7,\"total\":null}],\"totals\":{\"taxable_value\":2265.02,\"cgst\":0.0,\"sgst\":0.0,\"igst\":407.7,\"round_off\":0.28,\"grand_total\":2673.0}}",
+ "seconds": 14.68,
+ "prompt_tokens": 808,
+ "output_tokens": 301
+}

@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-2985\",\"invoice_date\":\"2026-07-14\",\"supplier\":{\"name\":\"Sri & Sons\",\"gstin\":\"19QYNCK1499L4ZS\",\"address\":\"198, APMC Yard, Kolkata - 730001\",\"state\":\"West Bengal\",\"state_code\":\"19\"},\"buyer\":{\"name\":\"Navkar Stores\",\"gstin\":null,\"address\":\"157, Station Road, Howrah - 738063\",\"state\":\"West Bengal\",\"state_code\":\"19\"},\"place_of_supply\":\"West Bengal (19)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Laptop 14 inch i5\",\"hsn_sac\":\"8471\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":51997.0,\"taxable_value\":51997.0,\"gst_rate\":18.0,\"cgst_amount\":4679.73,\"sgst_amount\":4679.73,\"igst_amount\":null,\"total\":null},{\"description\":\"Annual Maintenance Contract\",\"hsn_sac\":\"998713\",\"quantity\":1.0,\"unit\":\"NOS\",\"rate\":14724.0,\"taxable_value\":14724.0,\"gst_rate\":18.0,\"cgst_amount\":1325.16,\"sgst_amount\":1325.16,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":66721.0,\"cgst\":6004.89,\"sgst\":6004.89,\"igst\":0.0,\"round_off\":0.22,\"grand_total\":78731.0}}",
+ "seconds": 18.7,
+ "prompt_tokens": 776,
+ "output_tokens": 403
+}

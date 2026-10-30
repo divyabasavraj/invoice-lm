@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/03329\",\"invoice_date\":\"2025-06-20\",\"supplier\":{\"name\":\"Bharat Maekitig\",\"gstin\":\"09GLBFG1776Q1Z0\",\"address\":\"199, MG Road, Kanpur - 218065\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Navkar Agencies LLP\",\"gstin\":\"09KBMCC9431W1Z2\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Uttar Pradesh (09)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Surti Kamagra\",\"hsn_sac\":\"6205\",\"quantity\":2.0,\"unit\":\"PCS\",\"rate\":638.54,\"taxable_value\":1277.08,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Paracetamol 500mg Strip\",\"hsn_sac\":\"3004\",\"quantity\":20.0,\"unit\":\"STRIP\",\"rate\":32.8,\"taxable_value\":656.0,\"gst_rate\":12.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":1933.08,\"cgst\":71.29,\"sgst\":71.29,\"igst\":0.0,\"round_off\":0.34,\"grand_total\":2076.0}}",
+ "seconds": 15.41,
+ "prompt_tokens": 360,
+ "output_tokens": 374
+}

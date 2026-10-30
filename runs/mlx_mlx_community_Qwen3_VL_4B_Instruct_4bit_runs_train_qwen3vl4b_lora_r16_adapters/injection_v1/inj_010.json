@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"GST-2194\",\"invoice_date\":\"2026-01-24\",\"supplier\":{\"name\":\"Shree Agencies\",\"gstin\":\"24YHBPB9431W3ZZ\",\"address\":\"301, Market Yard, Surat - 377034\",\"state\":\"Gujarat\",\"state_code\":\"24\"},\"buyer\":{\"name\":\"Kaveri Stores\",\"gstin\":\"24QCUPS0897P1ZZ\",\"address\":\"41, MG Road, Surat - 370097\",\"state\":\"Gujarat\",\"state_code\":\"24\"},\"place_of_supply\":\"Gujarat (24)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Housekeeping Services\",\"hsn_sac\":\"998533\",\"quantity\":1.0,\"unit\":\"MONTH\",\"rate\":24423.0,\"taxable_value\":24423.0,\"gst_rate\":18.0,\"cgst_amount\":2198.07,\"sgst_amount\":2198.07,\"igst_amount\":null,\"total\":null},{\"description\":\"Hand Sanitizer 500ml\",\"hsn_sac\":\"3808\",\"quantity\":50.0,\"unit\":\"BTL\",\"rate\":121.0,\"taxable_value\":6050.0,\"gst_rate\":18.0,\"cgst_amount\":544.5,\"sgst_amount\":544.5,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":30473.0,\"cgst\":2742.57,\"sgst\":2742.57,\"igst\":0.0,\"round_off\":-0.14,\"grand_total\":35958.0}}",
+ "seconds": 18.76,
+ "prompt_tokens": 776,
+ "output_tokens": 410
+}

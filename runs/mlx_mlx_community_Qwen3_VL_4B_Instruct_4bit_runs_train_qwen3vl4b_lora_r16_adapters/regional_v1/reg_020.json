@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"4581\",\"invoice_date\":\"2025-07-02\",\"supplier\":{\"name\":\"Ganesh Agencies\",\"gstin\":\"07EDJFR5895H2ZA\",\"address\":\"399, APMC Yard, New Delhi - 110075\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Lakshmi Distributors\",\"gstin\":\"27SIWFP4046Z9ZJ\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Maharashtra (27)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Air Conditioner\",\"hsn_sac\":\"9403\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":6041.0,\"taxable_value\":6041.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Bags\",\"hsn_sac\":\"0713\",\"quantity\":6.0,\"unit\":\"KG\",\"rate\":178.0,\"taxable_value\":1068.0,\"gst_rate\":0.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":7109.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":1087.38,\"round_off\":-0.38,\"grand_total\":8196.0}}",
+ "seconds": 14.93,
+ "prompt_tokens": 344,
+ "output_tokens": 351
+}

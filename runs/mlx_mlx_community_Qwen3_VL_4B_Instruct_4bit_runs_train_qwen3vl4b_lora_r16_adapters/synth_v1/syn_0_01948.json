@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/04651\",\"invoice_date\":\"2025-10-26\",\"supplier\":{\"name\":\"Bharat & Sons\",\"gstin\":\"09MF OCT 6323H4ZA\",\"address\":\"313, APMC Yard, Lucknow - 285036\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"buyer\":{\"name\":\"Krishna Agencies\",\"gstin\":\"09HKNPA0238N3ZR\",\"address\":\"396, Ring Road, Kanpur - 212045\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"place_of_supply\":\"Uttar Pradesh (09)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Consulting Services\",\"hsn_sac\":\"998311\",\"quantity\":2.0,\"unit\":\"HRS\",\"rate\":1608.0,\"taxable_value\":3216.0,\"gst_rate\":18.0,\"cgst_amount\":289.44,\"sgst_amount\":289.44,\"igst_amount\":null,\"total\":null},{\"description\":\"Hand Sanitizer 500ml\",\"hsn_sac\":\"3808\",\"quantity\":2.0,\"unit\":\"BTL\",\"rate\":146.0,\"taxable_value\":292.0,\"gst_rate\":18.0,\"cgst_amount\":26.28,\"sgst_amount\":26.28,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":3508.0,\"cgst\":315.72,\"sgst\":315.72,\"igst\":0.0,\"round_off\":-0.44,\"grand_total\":4139.0}}",
+ "seconds": 17.43,
+ "prompt_tokens": 808,
+ "output_tokens": 413
+}

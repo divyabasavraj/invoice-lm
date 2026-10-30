@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202526/00553\",\"invoice_date\":\"2025-05-30\",\"supplier\":{\"name\":\"Vinayaka Traders LLP\",\"gstin\":\"32LYDCV1868L9Z6\",\"address\":\"68, Gandhi Nagar, Kochi - 688094\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"buyer\":{\"name\":\"Om Marketing\",\"gstin\":\"09IYYFN6423Y2Z3\",\"address\":\"336, Market Yard, New Delhi - 110062\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"place_of_supply\":\"Delhi (07)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"A4 Copier Paper 75 GSM\",\"hsn_sac\":\"4802\",\"quantity\":3.0,\"unit\":\"REAM\",\"rate\":265.0,\"taxable_value\":795.0,\"gst_rate\":12.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":35.4,\"total\":null}],\"totals\":{\"taxable_value\":795.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":95.4,\"round_off\":-0.4,\"grand_total\":890.0}}",
+ "seconds": 14.44,
+ "prompt_tokens": 776,
+ "output_tokens": 303
+}

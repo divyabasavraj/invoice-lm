@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"202627/03904\",\"invoice_date\":\"2026-06-20\",\"supplier\":{\"name\":\"Sahyadri Suppliers\",\"gstin\":\"07YUJCE1922K9ZK\",\"address\":\"283, APMC Yard, New Delhi - 110063\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Bharat Distributors LLP\",\"gstin\":\"36FOPCN9852U9ZU\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Telangana (36)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Cotton Shirt\",\"hsn_sac\":\"6205\",\"quantity\":25.0,\"unit\":\"PCS\",\"rate\":846.0,\"taxable_value\":21150.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Ceiling Fan 1200mm\",\"hsn_sac\":\"8414\",\"quantity\":4.0,\"unit\":\"PCS\",\"rate\":3151.0,\"taxable_value\":12604.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":33754.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":3326.22,\"round_off\":-0.22,\"grand_total\":37080.0}}",
+ "seconds": 16.19,
+ "prompt_tokens": 418,
+ "output_tokens": 375
+}

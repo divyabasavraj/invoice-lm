@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/4104\",\"invoice_date\":\"2025-06-04\",\"supplier\":{\"name\":\"\u0915\u0943\u0937\u094d\u0923\u093e \u0915\u0949\u092a\u0940\u0930\u093f\u0936\u0928 PRIVATE LIMITED\",\"gstin\":\"08GKMCRI212Z3ZP\",\"address\":\"337, MG Road, Udaipur - 302012\",\"state\":\"Rajasthan\",\"state_code\":\"08\"},\"buyer\":{\"name\":\"Om Industries\",\"gstin\":\"32BMSPA0336W2ZJ\",\"address\":\"430, Main Bazaar, Thiruvananthapuram - 695013\",\"state\":\"Kerala\",\"state_code\":\"32\"},\"place_of_supply\":\"Kerala (32)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Split AC 1.5 Ton\",\"hsn_sac\":\"8415\",\"quantity\":2.0,\"unit\":\"PCS\",\"rate\":40192.0,\"taxable_value\":80384.0,\"gst_rate\":28.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":22507.52,\"total\":null},{\"description\":\"A4 Copier Paper 75 GSM\",\"hsn_sac\":\"4802\",\"quantity\":50.0,\"unit\":\"REAM\",\"rate\":309.0,\"taxable_value\":15450.0,\"gst_rate\":12.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":1854.0,\"total\":null}],\"totals\":{\"taxable_value\":95834.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":24361.52,\"round_off\":0.48,\"grand_total\":120196.0}}",
+ "seconds": 18.88,
+ "prompt_tokens": 776,
+ "output_tokens": 428
+}

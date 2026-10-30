@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"1871\",\"invoice_date\":\"2026-09-13\",\"supplier\":{\"name\":\"Om Traders\",\"gstin\":\"09BLVCU4287M1ZH\",\"address\":\"390, APMC Yard, Lucknow - 215054\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"buyer\":{\"name\":\"Sri Traders\",\"gstin\":\"33NKXPH8185C1ZG\",\"address\":\"444, Gandhi Nagar, Chennai - 621005\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"place_of_supply\":\"Tamil Nadu (33)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Leather Shoes\",\"hsn_sac\":\"6403\",\"quantity\":50.0,\"unit\":\"PAIR\",\"rate\":2669.94,\"taxable_value\":133497.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":24029.46,\"total\":null},{\"description\":\"Cotton Shirt\",\"hsn_sac\":\"6205\",\"quantity\":100.0,\"unit\":\"PCS\",\"rate\":452.0,\"taxable_value\":45200.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":2260.0,\"total\":null}],\"totals\":{\"taxable_value\":178697.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":26289.46,\"round_off\":-0.46,\"grand_total\":204986.0}}",
+ "seconds": 18.74,
+ "prompt_tokens": 776,
+ "output_tokens": 395
+}

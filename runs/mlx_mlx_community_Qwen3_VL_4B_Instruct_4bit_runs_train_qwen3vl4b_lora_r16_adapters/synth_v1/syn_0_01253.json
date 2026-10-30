@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"ST-1236\",\"invoice_date\":\"2025-08-30\",\"supplier\":{\"name\":\"Bharat Industries Pvt Ltd\",\"gstin\":\"29BMXCD8118S1ZM\",\"address\":\"388, Market Yard, Mangaluru - 580042\",\"state\":\"Karnataka\",\"state_code\":\"29\"},\"buyer\":{\"name\":\"Navkar Corporation\",\"gstin\":\"09FANFB1456M4ZK\",\"address\":\"69, Station Road, Kanpur - 268044\",\"state\":\"Uttar Pradesh\",\"state_code\":\"09\"},\"place_of_supply\":\"Uttar Pradesh (09)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Paracetamol 500mg Strip\",\"hsn_sac\":\"3004\",\"quantity\":1.0,\"unit\":\"STRIP\",\"rate\":33.0,\"taxable_value\":33.0,\"gst_rate\":12.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":3.96,\"total\":null}],\"totals\":{\"taxable_value\":33.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":3.96,\"round_off\":0.04,\"grand_total\":37.0}}",
+ "seconds": 14.77,
+ "prompt_tokens": 808,
+ "output_tokens": 303
+}

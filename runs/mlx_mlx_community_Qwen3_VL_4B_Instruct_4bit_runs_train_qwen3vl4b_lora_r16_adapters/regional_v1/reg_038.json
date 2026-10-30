@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/0898\",\"invoice_date\":\"2025-08-15\",\"supplier\":{\"name\":\"\u0932\u0915\u094d\u0937\u094d\u092e\u0940 \u091a\u093f\u0928\u094d\u0924\u0940 \u0916\u094d\u092f\u0942\u091f\u094d\u0938 \u092a\u0940\u0935\u0940\u091f\u0940 \u090f\u0932\u094d\u091f\u0940\u0921\u0940\",\"gstin\":\"07THRCA3866T3ZL\",\"address\":\"259, Market Yard, New Delhi - 110088\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"buyer\":{\"name\":\"Shree Stores\",\"gstin\":\"07TIRFB0787M9ZL\",\"address\":\"322, MG Road, New Delhi - 110050\",\"state\":\"Delhi\",\"state_code\":\"07\"},\"place_of_supply\":\"Delhi (07)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Laptop 14 inch i5\",\"hsn_sac\":\"8471\",\"quantity\":1.0,\"unit\":\"PCS\",\"rate\":48981.0,\"taxable_value\":48981.0,\"gst_rate\":18.0,\"cgst_amount\":4408.29,\"sgst_amount\":4408.29,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":48981.0,\"cgst\":4408.29,\"sgst\":4408.29,\"igst\":0.0,\"round_off\":0.42,\"grand_total\":57798.0}}",
+ "seconds": 16.35,
+ "prompt_tokens": 776,
+ "output_tokens": 361
+}

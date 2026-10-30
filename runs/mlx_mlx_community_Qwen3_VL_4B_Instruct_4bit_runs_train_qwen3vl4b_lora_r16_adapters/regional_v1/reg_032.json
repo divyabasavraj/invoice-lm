@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"TI-80\",\"invoice_date\":\"2026-03-09\",\"supplier\":{\"name\":\"Omkar Santhosh\",\"gstin\":\"08NNSFU5171D1ZQ\",\"address\":\"187, Ring Road, Udaipur - 323005\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Anupam Maekitiga LLP\",\"gstin\":\"08INWCO0797L9Z8\",\"address\":null,\"state\":null,\"state_code\":null},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Corrugated Carton Box\",\"hsn_sac\":\"4819\",\"quantity\":10.0,\"unit\":\"PCS\",\"rate\":38.0,\"taxable_value\":380.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null},{\"description\":\"Paracetamol 500mg Strip\",\"hsn_sac\":\"3004\",\"quantity\":20.0,\"unit\":\"STRIP\",\"rate\":30.0,\"taxable_value\":600.0,\"gst_rate\":5.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":980.0,\"cgst\":24.5,\"sgst\":24.5,\"igst\":0.0,\"round_off\":0.0,\"grand_total\":1029.0}}",
+ "seconds": 15.08,
+ "prompt_tokens": 496,
+ "output_tokens": 361
+}

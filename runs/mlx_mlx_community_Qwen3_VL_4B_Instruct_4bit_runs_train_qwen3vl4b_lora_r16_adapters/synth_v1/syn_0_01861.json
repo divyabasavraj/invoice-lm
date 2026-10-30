@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"4168\",\"invoice_date\":\"2025-07-13\",\"supplier\":{\"name\":\"Sai Corporation\",\"gstin\":\"33ROOFJ1292S3ZB\",\"address\":\"347, Industrial Area Phase 2, Chennai - 634073\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"buyer\":{\"name\":\"Sri Enterprises\",\"gstin\":\"33HOOPL1460I1ZQ\",\"address\":\"1, Industrial Area Phase 2, Chennai - 620013\",\"state\":\"Tamil Nadu\",\"state_code\":\"33\"},\"place_of_supply\":\"Tamil Nadu (33)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"A4 Copier Paper 75 GSM\",\"hsn_sac\":\"4802\",\"quantity\":1.0,\"unit\":\"REAM\",\"rate\":255.13,\"taxable_value\":255.13,\"gst_rate\":12.0,\"cgst_amount\":15.31,\"sgst_amount\":15.31,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":255.13,\"cgst\":15.31,\"sgst\":15.31,\"igst\":0.0,\"round_off\":0.25,\"grand_total\":286.0}}",
+ "seconds": 13.57,
+ "prompt_tokens": 776,
+ "output_tokens": 312
+}

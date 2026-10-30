@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/3098\",\"invoice_date\":\"2025-10-12\",\"supplier\":{\"name\":\"Navkar Corporation\",\"gstin\":\"08VJHCO1990V4Z6\",\"address\":\"29, Gandhi Nagar, Bengaluru - 584038\",\"state\":null,\"state_code\":null},\"buyer\":{\"name\":\"Navkar Corporation\",\"gstin\":\"08VJHCO1990V4Z6\",\"address\":\"29, Gandhi Nagar, Bengaluru - 584038\",\"state\":null,\"state_code\":null},\"place_of_supply\":\"Rajasthan (08)\",\"supply_type\":\"inter_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Housekeeping Services\",\"hsn_sac\":\"998533\",\"quantity\":3.0,\"unit\":\"MONTH\",\"rate\":16163.0,\"taxable_value\":48489.0,\"gst_rate\":18.0,\"cgst_amount\":null,\"sgst_amount\":null,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":48489.0,\"cgst\":0.0,\"sgst\":0.0,\"igst\":8728.02,\"round_off\":-0.02,\"grand_total\":57217.0}}",
+ "seconds": 12.94,
+ "prompt_tokens": 439,
+ "output_tokens": 304
+}

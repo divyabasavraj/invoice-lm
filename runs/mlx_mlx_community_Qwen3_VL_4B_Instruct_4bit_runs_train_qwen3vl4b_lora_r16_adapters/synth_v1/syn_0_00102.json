@@ -1,0 +1,6 @@
+{
+ "text": "{\"invoice_number\":\"INV/25-26/1680\",\"invoice_date\":\"2026-03-12\",\"supplier\":{\"name\":\"Krishna Industries LLP\",\"gstin\":\"27SOWCZ7572W1Z4\",\"address\":\"249, Main Bazaar, Mumbai - 418084\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"buyer\":{\"name\":\"Annapurna Marketing\",\"gstin\":\"27QBZFI7346V1ZB\",\"address\":\"140, Gandhi Nagar, Pune - 409064\",\"state\":\"Maharashtra\",\"state_code\":\"27\"},\"place_of_supply\":\"Maharashtra (27)\",\"supply_type\":\"intra_state\",\"reverse_charge\":false,\"line_items\":[{\"description\":\"Annual Maintenance Contract\",\"hsn_sac\":\"998713\",\"quantity\":3.0,\"unit\":\"NOS\",\"rate\":9106.0,\"taxable_value\":27318.0,\"gst_rate\":18.0,\"cgst_amount\":2458.62,\"sgst_amount\":2458.62,\"igst_amount\":null,\"total\":null},{\"description\":\"Plastic Chair\",\"hsn_sac\":\"9401\",\"quantity\":3.0,\"unit\":\"PCS\",\"rate\":611.0,\"taxable_value\":1833.0,\"gst_rate\":18.0,\"cgst_amount\":164.97,\"sgst_amount\":164.97,\"igst_amount\":null,\"total\":null}],\"totals\":{\"taxable_value\":29151.0,\"cgst\":2623.59,\"sgst\":2623.59,\"igst\":0.0,\"round_off\":-0.18,\"grand_total\":34398.0}}",
+ "seconds": 19.07,
+ "prompt_tokens": 776,
+ "output_tokens": 416
+}
