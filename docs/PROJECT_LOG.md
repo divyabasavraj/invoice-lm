@@ -305,6 +305,8 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 
 16. 10:45  README rewritten around the results: headline (73% vs 60% for 7B, 3× faster), same-60 table for all 5 models, what the fine-tune changed, limits (synthetic only, 2 silent misreads, Kannada supplier names, no Gemini yet), training summary, new commands (`stage-hf-model`, `count_swaps.py`, serve with `--extra train`). Files: `README.md`.
 
+17. 10:55  Blog draft `docs/BLOG_DRAFT.md` (~975 words): problem, synthetic dataset, code-only checks, baselines, laptop training (incl. the dead watcher and the 2× time miss), results table, what it still gets wrong, lessons. Humanizer pass: two effect headings renamed, an unsupported detail ("carbon-copy" bill books) removed, no dashes. `[FAILURE]` My first draft said the untrained model made the same two misreads; it didn't (on `syn_0_00311` it read the date right and missed the buyer GSTIN). Fixed in the draft before commit. Links to add after upload.
+
 ### End of day (provisional)
 - Done: LoRA r16 trained (6 h 09 min); fine-tuned 4B beats every baseline incl. 7B at 3× the speed; RESULTS.md written; silent errors explained.
 - Not done: HF upload (account + approval); model card; real-invoice test; git remote.
