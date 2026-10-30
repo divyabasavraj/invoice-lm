@@ -303,6 +303,8 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 14. 10:38  `invoice-lm stage-hf-model`: `runs/hf_model` = final `adapters.safetensors` (132 MB, hard link) + `adapter_config.json` + model card (YAML `base_model`, results tables, usage, training settings, limits incl. the 2 silent misreads and Kannada supplier names). The 16 step checkpoints (~2.1 GB) are not staged. Test first (import error, then pass). `runs/hf_model/` gitignored. Files: `publish.py`, `__init__.py`, `tests/test_publish.py`, `.gitignore`.
 15. 10:40  `[RESULT]` Loaded the base model + `runs/hf_model` the way a Hub user would: `syn_0_00000` read correctly (invoice number, grand total), not flagged, 23.1 s. **597 tests pass.** Upload command waits for the user's HF account: `hf upload <user>/invoicelm-qwen3vl-4b-lora runs/hf_model`.
 
+16. 10:45  README rewritten around the results: headline (73% vs 60% for 7B, 3× faster), same-60 table for all 5 models, what the fine-tune changed, limits (synthetic only, 2 silent misreads, Kannada supplier names, no Gemini yet), training summary, new commands (`stage-hf-model`, `count_swaps.py`, serve with `--extra train`). Files: `README.md`.
+
 ### End of day (provisional)
 - Done: LoRA r16 trained (6 h 09 min); fine-tuned 4B beats every baseline incl. 7B at 3× the speed; RESULTS.md written; silent errors explained.
 - Not done: HF upload (account + approval); model card; real-invoice test; git remote.
