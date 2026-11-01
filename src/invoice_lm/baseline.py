@@ -79,8 +79,14 @@ def call_gemini(model: str, image: bytes, mime: str) -> dict:
         "generationConfig": {"temperature": 0, "responseMimeType": "application/json"},
     }
     t0 = time.time()
-    r = httpx.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-                   headers={"x-goog-api-key": key}, json=body, timeout=300)
+    # Free tier: 429 (per-minute quota) and 503 (overloaded) are routine; wait and retry.
+    for attempt in range(6):
+        r = httpx.post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                       headers={"x-goog-api-key": key}, json=body, timeout=300)
+        if r.status_code not in (429, 503) or attempt == 5:
+            break
+        time.sleep(min(10 * 2 ** attempt, 120))
+        t0 = time.time()
     r.raise_for_status()
     j = r.json()
     usage = j.get("usageMetadata", {})
@@ -151,9 +157,9 @@ def run(backend: str, dataset: Path, split: str = "test", limit: int | None = No
         else:
             try:
                 out = predict(backend, dataset / r["image"])
-            except Exception as e:  # keep going; the failure is scored as unparsed
+                f.write_text(json.dumps(out, indent=1))
+            except Exception as e:  # keep going; scored as unparsed, not cached, so a rerun retries
                 out = {"text": "", "error": repr(e), "seconds": None}
-            f.write_text(json.dumps(out, indent=1))
             print(f"[{i}/{len(rows)}] {r['id']} {r['layout']}/{r['level']} {out.get('seconds')}s",
                   flush=True)
         label = GSTInvoice.model_validate_json((dataset / r["label"]).read_text())

@@ -58,7 +58,7 @@ uv run invoice-lm generate --n 2000 --out data/synth_v1      # dataset
 uv run invoice-lm generate --injection --out data/injection_v1
 uv run invoice-lm generate --regional --n 40 --out data/regional_v1
 uv run invoice-lm baseline ollama:qwen2.5vl:7b --data data/synth_v1   # zero-shot run + scores
-uv run invoice-lm baseline gemini:gemini-2.5-flash --limit 50         # needs GEMINI_API_KEY
+uv run invoice-lm baseline gemini:gemini-3.8-flash --limit 60         # needs GEMINI_API_KEY
 uv run invoice-lm export-sft                                  # mlx-vlm training files
 eval/run_baselines.sh 1                                       # pass 1 on 3 local models (~2 h)
 eval/train_lora.sh mlx-community/Qwen3-VL-4B-Instruct-4bit qwen3vl4b_lora_r16  # LoRA on Apple silicon

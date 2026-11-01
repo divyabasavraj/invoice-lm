@@ -329,7 +329,13 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 6. 11:20  `[RESULT]` Dataset round trip: `load_dataset("Divya52/indian-gst-invoices", <config>)` with no token and an empty `HF_HOME` loads synthetic 2,000, injection 24, regional 40 rows with `image`, `label` and the metadata columns. Each config comes back as one `train` split, and the real train/val/test split is in the `split` column. The card already says this.
 7. 11:24  Links added: README (under Status) points to both HF repos, and the blog's last line now has the code, dataset and adapter URLs. Files: `README.md`, `docs/BLOG_DRAFT.md`.
 
+8. 11:30  Commit `4058550` (HF links + Day 6 log) pushed to `main`.
+9. 13:20  Gemini baseline started. User gave a key; it's saved in `.env` (gitignored, mode 600). It reached the chat transcript, so the user should rotate it afterwards. The key lists models fine.
+10. 13:20  `[FAILURE]` Found while reading `baseline.run`: a call that raised (HTTP 429/503, timeout) was cached as an empty answer, so it was scored as a parse failure for good and a rerun never retried it. That would have quietly cut Gemini's free-tier score. Fix (tests first, 2 new in `tests/test_baseline.py`): `call_gemini` retries 429/503 with backoff of 10 s doubling to 120 s, 6 tries, and failed calls aren't cached. **599 tests pass.** Files: `src/invoice_lm/baseline.py`, `tests/test_baseline.py`.
+11. 13:20  `[FAILURE]` `gemini-2.5-flash` → 404 "no longer available to new users; use models/gemini-3.8-flash". Every other generation model (3.5/3.6 Flash, 3.1 Flash-Lite, 3 Flash preview) also returns 404 with an empty body to this key, so **3.8 Flash is the only option**. `[DECISION]` Baseline model = `gemini-3.8-flash`; README command updated.
+12. 13:20  `[FAILURE]` `gemini-3.8-flash` is overloaded: one invoice call hit the 300 s read timeout; "Say OK" text calls hung 60–120 s with no reply or got 503 "currently experiencing high demand". The Interactions API endpoint hung too. Cause: Google-side capacity, not the key or the code. `[NEXT]` Retry when demand drops: smoke test of 3 invoices first, measure s/invoice, then the same 60 synth + 24 injection.
+
 ### End of day
-- Done: dataset and adapter public on HF, both tested from a clean cache, docs linked.
-- Not done: Gemini baseline (needs `GEMINI_API_KEY`); real-photo test (needs photos from the user); native-speaker check of Hindi/Kannada.
+- Done: dataset and adapter public on HF, both tested from a clean cache, docs linked; Gemini retry/no-cache fix.
+- Not done: Gemini baseline (key in place; gemini-3.8-flash overloaded at 13:20); real-photo test (needs photos from the user); native-speaker check of Hindi/Kannada.
 - `[NEXT]` With a key: `uv run invoice-lm baseline gemini:gemini-2.5-flash --limit 50`, then add the row to RESULTS/README. With photos: run them through `POST /extract` and log per-field results.
