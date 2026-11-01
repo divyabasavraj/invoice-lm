@@ -6,6 +6,8 @@ A LoRA fine-tune of Qwen3-VL-4B (6 h on an M5 MacBook) gets every critical field
 
 Status: model trained and evaluated on synthetic data; Gemini baseline and a real-photo test still to do. See [PLAN.md](PLAN.md), the [project log](docs/PROJECT_LOG.md) and [full results](docs/RESULTS.md).
 
+On Hugging Face: the adapter, [Divya52/invoicelm-qwen3vl-4b-lora](https://huggingface.co/Divya52/invoicelm-qwen3vl-4b-lora), and the dataset, [Divya52/indian-gst-invoices](https://huggingface.co/datasets/Divya52/indian-gst-invoices) (2,064 invoices, CC BY 4.0).
+
 ## Results
 Same 60 synthetic test invoices for every model, 1,024 px, all local on a 16 GB M5 MacBook:
 

@@ -312,7 +312,24 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 19. 11:12  HF already logged in on this Mac as `Divya52` (an earlier `whoami` was hidden by CLI hints). Cards now name `Divya52/indian-gst-invoices` and `Divya52/invoicelm-qwen3vl-4b-lora`, link each other and the GitHub repo; model card usage loads the adapter with `snapshot_download`. Both repos don't exist yet. Restaged both. 597 tests. Files: `publish.py`, `tests/test_publish.py`.
 20. 11:13  `[FAILURE]` `hf upload` blocked by the Claude Code permission check (public upload needs the user's explicit approval or a permission rule). Handed the two commands to the user.
 
-### End of day (provisional)
-- Done: LoRA r16 trained (6 h 09 min); fine-tuned 4B beats every baseline incl. 7B at 3× the speed; RESULTS.md written; silent errors explained.
-- Not done: HF upload (account + approval); model card; real-invoice test; git remote.
-- `[NEXT]` Decide second epoch (proposal: no); write model card; stage adapter for HF.
+### End of day
+- Done: LoRA r16 trained (6 h 09 min); fine-tuned 4B beats every baseline incl. 7B at 3× the speed; RESULTS.md written; silent errors explained; no second epoch; API defaults to the fine-tune; swap count; model card + adapter staged; README rewrite; blog draft; public GitHub repo pushed; HF repo names in both cards.
+- Not done: HF uploads (blocked by the permission check, waiting for the user); Gemini baseline (no key); real-invoice test (no photos yet); native-speaker check.
+- `[NEXT]` Upload dataset and adapter to HF, test the adapter from the Hub, add the links to README and blog.
+
+## Day 6: 2026-11-01: Hugging Face release (milestone 8)
+**Goal for the day:** publish the dataset and the adapter on Hugging Face, check both work for someone starting from nothing, link them from the docs.
+
+### Steps
+1. 11:07  Status check: nothing unpushed on `main`; both HF repos (`Divya52/indian-gst-invoices`, `Divya52/invoicelm-qwen3vl-4b-lora`) still missing; `GEMINI_API_KEY` not set. The Day 5 end-of-day list was out of date (it still said model card and git remote not done), so I fixed it. Files: `docs/PROJECT_LOG.md`.
+2. 11:10  Pre-upload scan of `runs/hf_dataset` (452 MB) and `runs/hf_model` (126 MB): no tokens, no keys, no local paths. User approved the public uploads.
+3. 11:10  `[RESULT]` Model upload: `hf upload Divya52/invoicelm-qwen3vl-4b-lora runs/hf_model`, 22 s. The CLI said "0 uploaded", so I checked the repo: public, `adapters.safetensors` 132,183,313 bytes, `adapter_config.json`, `README.md`. The upload was fine and only the CLI's progress count was wrong.
+4. 11:10  `[RESULT]` Dataset upload, run in the background: `hf upload Divya52/indian-gst-invoices runs/hf_dataset --repo-type dataset`, 2 min 01 s in 7 commits. Hub has the same file counts as staging: synthetic 2,001, injection 25, regional 41 (images + metadata), 470 MB, public.
+5. 11:12  `[RESULT]` Hub round trip for the adapter: ran the model card's usage code verbatim with an empty `HF_HUB_CACHE` on held-out test invoice `syn_0_00562` (not in the train or val images), resized to 1,024 px. Downloads took 4 min 24 s (base model) + 15 s (adapter); total 302.8 s. Output scored against the gold label: parsed, **field accuracy 100%, all critical fields correct, 4/4 line items, all correct**, `needs_review` false. Script kept in the session scratchpad, not in the repo.
+6. 11:20  `[RESULT]` Dataset round trip: `load_dataset("Divya52/indian-gst-invoices", <config>)` with no token and an empty `HF_HOME` loads synthetic 2,000, injection 24, regional 40 rows with `image`, `label` and the metadata columns. Each config comes back as one `train` split, and the real train/val/test split is in the `split` column. The card already says this.
+7. 11:24  Links added: README (under Status) points to both HF repos, and the blog's last line now has the code, dataset and adapter URLs. Files: `README.md`, `docs/BLOG_DRAFT.md`.
+
+### End of day
+- Done: dataset and adapter public on HF, both tested from a clean cache, docs linked.
+- Not done: Gemini baseline (needs `GEMINI_API_KEY`); real-photo test (needs photos from the user); native-speaker check of Hindi/Kannada.
+- `[NEXT]` With a key: `uv run invoice-lm baseline gemini:gemini-2.5-flash --limit 50`, then add the row to RESULTS/README. With photos: run them through `POST /extract` and log per-field results.

@@ -99,4 +99,6 @@ real invoice photos, and I expect the numbers to drop.
 - Measure the step time over more than 20 steps before promising anyone a finish time.
 - Anything that has to outlive your terminal needs to be detached from it.
 
-Code, dataset and adapter: *links to add after upload.*
+Code: https://github.com/divyabasavraj/invoice-lm
+Dataset: https://huggingface.co/datasets/Divya52/indian-gst-invoices
+Adapter: https://huggingface.co/Divya52/invoicelm-qwen3vl-4b-lora
