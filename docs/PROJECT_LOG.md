@@ -334,8 +334,18 @@ Weakest fields for both: buyer GSTIN (66.7%) and supplier GSTIN (70 / 73%).
 10. 13:20  `[FAILURE]` Found while reading `baseline.run`: a call that raised (HTTP 429/503, timeout) was cached as an empty answer, so it was scored as a parse failure for good and a rerun never retried it. That would have quietly cut Gemini's free-tier score. Fix (tests first, 2 new in `tests/test_baseline.py`): `call_gemini` retries 429/503 with backoff of 10 s doubling to 120 s, 6 tries, and failed calls aren't cached. **599 tests pass.** Files: `src/invoice_lm/baseline.py`, `tests/test_baseline.py`.
 11. 13:20  `[FAILURE]` `gemini-2.5-flash` → 404 "no longer available to new users; use models/gemini-3.8-flash". Every other generation model (3.5/3.6 Flash, 3.1 Flash-Lite, 3 Flash preview) also returns 404 with an empty body to this key, so **3.8 Flash is the only option**. `[DECISION]` Baseline model = `gemini-3.8-flash`; README command updated.
 12. 13:20  `[FAILURE]` `gemini-3.8-flash` is overloaded: one invoice call hit the 300 s read timeout; "Say OK" text calls hung 60–120 s with no reply or got 503 "currently experiencing high demand". The Interactions API endpoint hung too. Cause: Google-side capacity, not the key or the code. `[NEXT]` Retry when demand drops: smoke test of 3 invoices first, measure s/invoice, then the same 60 synth + 24 injection.
+13. 13:36  `[RESULT]` Smoke test, 3 synth test invoices (`syn_0_00000` classic/clean, `syn_0_00008` minimal/photo, `syn_0_00013` minimal/scan): parse 100%, field accuracy 100%, all critical fields correct, no false flags, no silent errors. **73.9 s per invoice** on average but 12–168 s per call, driven by Google's load rather than the image. Output in `runs/gemini_gemini_3.8_flash/synth_v1/`. Full run not started (waiting for the user to pick full vs synthetic-only).
 
 ### End of day
 - Done: dataset and adapter public on HF, both tested from a clean cache, docs linked; Gemini retry/no-cache fix.
-- Not done: Gemini baseline (key in place; gemini-3.8-flash overloaded at 13:20); real-photo test (needs photos from the user); native-speaker check of Hindi/Kannada.
-- `[NEXT]` With a key: `uv run invoice-lm baseline gemini:gemini-2.5-flash --limit 50`, then add the row to RESULTS/README. With photos: run them through `POST /extract` and log per-field results.
+- Not done: full Gemini baseline (key in place; smoke test passed at 13:36); real-photo test (needs photos from the user); native-speaker check of Hindi/Kannada.
+- `[NEXT]` Full Gemini run: `uv run invoice-lm baseline gemini:gemini-3.8-flash --data data/synth_v1 --limit 60`, then `--data data/injection_v1`; add the row to RESULTS/README/blog. With photos: run them through `POST /extract` and log per-field results.
+
+## Day 7: 2026-11-08: Gemini baseline (milestone 5)
+**Goal for the day:** run Gemini 3.8 Flash on the same 60 synth + 24 injected invoices as the other models, add it to the results, tidy up.
+
+### Steps
+1. 18:05  Status check: nothing unpushed; the Nov 1 smoke-test output was uncommitted and missing from the log, and the Day 6 `[NEXT]` still named `gemini-2.5-flash`. Added Day 6 step 13 and fixed the `[NEXT]`. Files: `docs/PROJECT_LOG.md`.
+2. 18:05  Started the full Gemini run in the background under `caffeinate`: synth 60 (`--limit 60`, the 3 smoke-test invoices come from the cache) then injection 24. ETA ~1 h 40 m at the Nov 1 rate (~74 s per invoice). Log: `runs/logs/gemini_full.log`.
+3. 18:06  `.vscode/settings.json` (one editor setting, `python.terminal.useEnvFile`) is personal, so `.vscode/` goes in `.gitignore`. Files: `.gitignore`.
+

@@ -16,3 +16,6 @@ runs/hf_dataset/
 runs/hf_model/
 runs/_archive/
 *.safetensors
+
+# Editor settings
+.vscode/
